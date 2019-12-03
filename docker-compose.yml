@@ -11,6 +11,8 @@ services:
       - ./jellyfin/cache:/cache
       - "${TVDIR}:/media/tv"
       - "${MOVIESDIR}:/media/movies"
+      - /mnt/usbstorage/Anime/Movies:/anime/movies
+      - /mnt/usbstorage/Anime/TV:/anime/tv
       - /etc/localtime:/etc/localtime:ro
     user: "1000:1000"
     labels:
@@ -27,8 +29,9 @@ services:
       - TZ=${TZ}
     volumes:
       - ./sonarr:/config
-      - ${DLDIR}/completed:/downloads/completed
+      - ${DLDIR}:/downloads
       - ${TVDIR}:/tv
+      - /mnt/usbstorage/Anime/TV:/animetv
       - /etc/localtime:/etc/localtime:ro
     depends_on:
       - jackett
@@ -47,8 +50,9 @@ services:
       - TZ=${TZ}
     volumes:
       - ./radarr:/config
-      - ${DLDIR}/completed:/downloads/completed
-      - ${MOVIESDIR}:/movies
+      - ${DLDIR}:/downloads
+      - ${MOVIESDIR}:/movies    
+      - /mnt/usbstorage/Anime/Movies:/animemovies
       - /etc/localtime:/etc/localtime:ro
     depends_on:
       - jackett
@@ -86,6 +90,8 @@ services:
       - TZ=Europe/London
     volumes:
       - ${DLDIR}:/downloads
+      - /mnt/usbstorage/TV:/media/tv
+      - /mnt/usbstorage/Movies:/media/movies
       - ./deluge:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
@@ -102,7 +108,7 @@ services:
       - PGID=${PGID}
     volumes:
       - ./jackett:/config
-      - ${DLDIR}/completed:/downloads
+      - ${DLDIR}:/downloads
       - /etc/localtime:/etc/localtime:ro
     labels:
       - "traefik.http.routers.jackett.rule=Host(`jackett.${DOMAIN}`)"
