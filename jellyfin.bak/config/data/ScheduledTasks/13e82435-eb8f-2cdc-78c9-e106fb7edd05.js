@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2019-12-14T02:04:42.5003223Z","EndTimeUtc":"2019-12-14T02:04:42.7003679Z","Status":"Completed","Name":"Chapter image extraction","Key":"RefreshChapterImages","Id":"13e82435eb8f2cdc78c9e106fb7edd05"}

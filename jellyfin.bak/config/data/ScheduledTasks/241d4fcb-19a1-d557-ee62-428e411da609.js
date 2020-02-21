@@ -1,0 +1,1 @@
+{"StartTimeUtc":"2019-12-13T23:01:31.8378061Z","EndTimeUtc":"2019-12-13T23:01:31.8639429Z","Status":"Completed","Name":"Cache file cleanup","Key":"DeleteCacheFiles","Id":"241d4fcb19a1d557ee62428e411da609"}

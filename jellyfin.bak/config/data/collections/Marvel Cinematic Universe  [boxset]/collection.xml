@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>GB-12A</ContentRating>
+  <Added>12/05/2019 00:13:55</Added>
+  <LockData>false</LockData>
+  <LocalTitle>Marvel Cinematic Universe </LocalTitle>
+  <PremiereDate>2015-07-14</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>2015</ProductionYear>
+  <Genres>
+    <Genre>Science Fiction</Genre>
+    <Genre>Action</Genre>
+    <Genre>Adventure</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Marvel Studios</Studio>
+  </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4</Path>
+    </CollectionItem>
+  </CollectionItems>
+</Item>

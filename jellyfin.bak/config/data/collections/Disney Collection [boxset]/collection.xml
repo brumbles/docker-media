@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>G</ContentRating>
+  <Added>12/04/2019 00:03:27</Added>
+  <LockData>false</LockData>
+  <LocalTitle>Disney Collection</LocalTitle>
+  <PremiereDate>1961-01-25</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>1961</ProductionYear>
+  <Genres>
+    <Genre>Family</Genre>
+    <Genre>Adventure</Genre>
+    <Genre>Comedy</Genre>
+    <Genre>Animation</Genre>
+    <Genre>Fantasy</Genre>
+    <Genre>Romance</Genre>
+    <Genre>Science Fiction</Genre>
+    <Genre>Action</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Disney Television Animation</Studio>
+    <Studio>Walt Disney Pictures</Studio>
+    <Studio>Walt Disney Productions</Studio>
+    <Studio>Walt Disney Animation Studios</Studio>
+  </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/101 Dalmatians 2 - Patch's London Adventure.avi</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/Aladdin.avi</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/Aladdin and the King of Thieves.avi</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/Atlantis 2 Milo's Return.avi</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/The Aristocats.avi</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/Atlantis The Lost Empire.avi</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Disney Collection 1937-2008/101 Dalmatians.avi</Path>
+    </CollectionItem>
+  </CollectionItems>
+</Item>

@@ -1,0 +1,356 @@
+[2019-12-06 00:05:24.283 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.53406. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:08:57.263 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=5c39ca2a7e3b407e89d16ecd3509e776&deviceId=a9722d2aee6e3326". UserAgent: "Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36"
+[2019-12-06 00:09:03.535 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6800589. "http://192.168.1.200:8096/Items/965013e1ce49e13a8691e40afa19997e/Images/Backdrop/0?tag=03752dbbc273ca4e51d385ba3a42641d&quality=80"
+[2019-12-06 00:09:03.672 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6313011. "http://192.168.1.200:8096/Items/8128d9be50d95f9c37e1b51beb5c686a/Images/Primary?tag=91246719d2699a87094e4dbf28fc56cb&quality=90"
+[2019-12-06 00:09:04.068 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5723438. "http://192.168.1.200:8096/Items/fcef0c1e9eba99503ffe7b27933804cb/Images/Primary?tag=760249b92fc54931c181a724baa0e92b&quality=90"
+[2019-12-06 00:09:04.164 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5900627. "http://192.168.1.200:8096/Items/a4806187cbf1426cd4915f2892551b72/Images/Backdrop?tag=1f0e954c16c2b813e125a9cd5e8ba930&quality=80"
+[2019-12-06 00:09:04.662 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.6211362. "http://192.168.1.200:8096/Items/60f0220a47466289ff616dc325df8e5a/Images/Primary?tag=b319908649c1c182f60b0a8649faca63&quality=90"
+[2019-12-06 00:09:04.721 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.6803512. "http://192.168.1.200:8096/Items/7483e0be8354794e9fcc0ea422a35cbd/Images/Primary?tag=d5d87535c7cdf7b18de35ca9fb8159ba&quality=90"
+[2019-12-06 00:09:20.207 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-06 00:09:20.230 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:09:20.249 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:09:20.250 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:09:24.373 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5149755. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:10:25.860 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-06 00:10:25.860 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:10:25.860 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:10:25.860 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:10:26.950 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-06 00:10:26.951 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:10:26.951 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:10:26.951 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:10:27.325 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 00:10:28.931 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 00:10:28.931 +00:00] [WRN] HTTP Response 206 to "192.168.1.11". Time (slow): 0:00:01.4690394. "http://192.168.1.200:8096/Videos/c27c1e50ee6f4f459f769c9177d8c122/stream.mkv?Static=true&mediaSourceId=c27c1e50ee6f4f459f769c9177d8c122&deviceId=a9722d2aee6e3326&Tag=d4151019e1cf28ca16101ed5f8cf2e45"
+[2019-12-06 00:11:28.416 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 00:11:28.416 +00:00] [WRN] HTTP Response 206 to "192.168.1.11". Time (slow): 0:00:58.8805085. "http://192.168.1.200:8096/Videos/c27c1e50ee6f4f459f769c9177d8c122/stream.mkv?Static=true&mediaSourceId=c27c1e50ee6f4f459f769c9177d8c122&deviceId=a9722d2aee6e3326&Tag=d4151019e1cf28ca16101ed5f8cf2e45"
+[2019-12-06 00:11:28.565 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=5c39ca2a7e3b407e89d16ecd3509e776&deviceId=a9722d2aee6e3326". UserAgent: "Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36"
+[2019-12-06 00:11:30.715 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.9851035. "http://192.168.1.200:8096/Items/82cf6bd90ecd5452149dfbf7a1532346/Images/Backdrop/0?tag=bef58bff2ca0a3101414804136dee282&quality=80"
+[2019-12-06 00:11:57.441 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:02.8191795. "http://192.168.1.200:8096/Items/1c3d5778bd6abd7dbf4ef23b0c4f355f/Images/Backdrop/0?tag=5e10ea91ed63995652ef1d1ceb7370d2&quality=80"
+[2019-12-06 00:12:17.662 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6689515. "http://192.168.1.200:8096/Items/6607cbd9f52e566788883a078a48db10/Images/Backdrop/0?tag=c3f5ff4c073141823d7f399aaa3919c5&quality=80"
+[2019-12-06 00:12:25.790 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5351512. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:12:39.279 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6140453. "http://192.168.1.200:8096/Items/09d21d05c104a32054bbf8c188337298/Images/Primary?tag=d48f7bc6c8547db6bcb820c44a4957e3&quality=90"
+[2019-12-06 00:12:41.973 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9691768. "http://192.168.1.200:8096/Items/cf394f375fefe1c5703dcff97318364f/Images/Backdrop/0?tag=217656ffe64e3588ee747e312fe4cec8&quality=80"
+[2019-12-06 00:12:51.261 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5412999. "http://192.168.1.200:8096/Items/4cb0ff574095cc8440d480813e612859/Images/Primary?tag=f5468c904f1157fd459a848f08e1465b&quality=90"
+[2019-12-06 00:12:53.808 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5124609. "http://192.168.1.200:8096/Items/149981a2969bd4c8c46e01c256dc4419/Images/Primary?width=1313&tag=06a3979eab4e2cd3dfc34c1452de2329&quality=40"
+[2019-12-06 00:12:53.831 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5352849. "http://192.168.1.200:8096/Items/77db2fd76e481d30c67dc03f0528254c/Images/Primary?width=1313&tag=fe4a7c14b3ff17250750b18f1f29c4a6&quality=40"
+[2019-12-06 00:12:55.436 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.547425. "http://192.168.1.200:8096/Items/25a75b1510b63f62623b6d2e17efd592/Images/Primary?width=1313&tag=4d3ac725eb9241f135225d88f548b11a&quality=40"
+[2019-12-06 00:12:55.911 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.533155. "http://192.168.1.200:8096/Items/ca8d49ad76470a44bda4b3a9762c582d/Images/Primary?width=1313&tag=f6d1a02954d9d385ead09e50dec74b8f&quality=40"
+[2019-12-06 00:12:57.370 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5864439. "http://192.168.1.200:8096/Items/2bb81b2cc77d57ad2b7888838759e3b8/Images/Primary?width=1313&tag=788481f219ea3603a48bea0a0f3807d5&quality=40"
+[2019-12-06 00:12:59.466 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.8881098. "http://192.168.1.200:8096/Items/15dddaa7d0e29350c4ada6d9303537e8/Images/Primary?width=1313&tag=31f571f55a3ddc5524dc174a87dd3d86&quality=40"
+[2019-12-06 00:13:03.063 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-06 00:13:03.063 +00:00] [INF] Profile: "Unknown Profile", Path: "/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:13:03.066 +00:00] [INF] Profile: "VideoCodecProfile", DirectPlay=false. Reason="Unknown Profile".VideoProfile Condition: EqualsAny. ConditionValue: "high|main|baseline|constrained baseline". IsRequired: True. Path: "/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv"
+[2019-12-06 00:13:03.100 +00:00] [INF] Profile: "Unknown Profile", Path: "/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:13:03.100 +00:00] [INF] Profile: "VideoCodecProfile", DirectPlay=false. Reason="Unknown Profile".VideoProfile Condition: EqualsAny. ConditionValue: "high|main|baseline|constrained baseline". IsRequired: True. Path: "/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv"
+[2019-12-06 00:13:03.100 +00:00] [INF] Profile: "Unknown Profile", Path: "/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-06 00:13:03.100 +00:00] [INF] Profile: "VideoCodecProfile", DirectPlay=false. Reason="Unknown Profile".VideoProfile Condition: EqualsAny. ConditionValue: "high|main|baseline|constrained baseline". IsRequired: True. Path: "/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv"
+[2019-12-06 00:13:03.345 +00:00] [INF] /usr/local/bin/ffmpeg -f matroska,webm -i file:"/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv" -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -force_key_frames "expr:gte(t,n_forced*5)" -vf "scale=trunc(min(max(iw\,ih*dar)\,1920)/2)*2:trunc(ow/dar/2)*2" -copyts -avoid_negative_ts disabled -start_at_zero -pix_fmt yuv420p -preset superfast -crf 23 -maxrate 5777512 -bufsize 11555024 -profile:v high -level 4.1 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -vsync -1 -map_metadata -1 -map_chapters -1 -threads 0 -codec:a:0 libmp3lame -ac 2 -ab 192000  -y "/config/transcoding-temp/3ea83ccaec8baf01622fa86af118e3a0.mkv"
+[2019-12-06 00:13:10.560 +00:00] [INF] "/usr/local/bin/ffmpeg" "-i file:\"/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv\" -map 0:2 -an -vn -c:s copy \"/config/data/subtitles/6/638dfba3-ce2c-e7eb-af87-8a4594af7ada.ass\""
+[2019-12-06 00:13:11.287 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.1573551. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:13:11.453 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.3799541. "http://192.168.1.200:8096/Sessions/Playing"
+[2019-12-06 00:13:24.041 +00:00] [INF] ffmpeg subtitle extraction completed for file:"/anime/tv/Jojo's Bizarre Adventure/Season 2/[Some-Stuffs]_Jojo's_Bizarre_Adventure_Stardust_Crusaders_04v2_(1280x720_Blu-Ray_AAC)_[C02917A2].mkv" to /config/data/subtitles/6/638dfba3-ce2c-e7eb-af87-8a4594af7ada.ass
+[2019-12-06 00:13:24.076 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:14.4038723. "http://192.168.1.200:8096/Videos/ca8d49ad-7647-0a44-bda4-b3a9762c582d/ca8d49ad76470a44bda4b3a9762c582d/Subtitles/2/0/Stream.ass"
+[2019-12-06 00:14:12.206 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5714309. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:14:32.483 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.7241421. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:15:12.191 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5290286. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:15:22.222 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5490867. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:16:04.465 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5552766. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:16:09.211 +00:00] [INF] Stopping ffmpeg process with q command for "/config/transcoding-temp/3ea83ccaec8baf01622fa86af118e3a0.mkv"
+[2019-12-06 00:16:09.343 +00:00] [INF] FFMpeg exited with code 0
+[2019-12-06 00:16:09.347 +00:00] [INF] Deleting partial stream file(s) "/config/transcoding-temp/3ea83ccaec8baf01622fa86af118e3a0.mkv"
+[2019-12-06 00:16:09.596 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 00:16:09.596 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:03:05.8457715. "http://192.168.1.200:8096/videos/ca8d49ad-7647-0a44-bda4-b3a9762c582d/stream.mkv?DeviceId=a9722d2aee6e3326&MediaSourceId=ca8d49ad76470a44bda4b3a9762c582d&VideoCodec=h264,vp8,vp9&AudioCodec=mp3,aac,opus,flac,vorbis&AudioStreamIndex=1&VideoBitrate=139808000&AudioBitrate=192000&PlaySessionId=65a03a6ecb8649e9bfbf25f582ef68fa&TranscodingMaxAudioChannels=2&CopyTimestamps=true&RequireAvc=false&Tag=c52e1f582b955e74402cdc93d891ba05&h264-profile=high,main,baseline,constrainedbaseline&h264-level=41&TranscodeReasons=VideoProfileNotSupported"
+[2019-12-06 00:16:10.892 +00:00] [INF] Playback stopped reported by app "Jellyfin Mobile" "906" playing "Tower of Grey". Stopped at "178728" ms
+[2019-12-06 00:16:11.301 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:02.1140354. "http://192.168.1.200:8096/Sessions/Playing/Stopped"
+[2019-12-06 00:17:27.724 +00:00] [ERR] AcceptWebSocketAsync error
+System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+   at System.Net.WebSockets.ManagedWebSocket.ThrowIfEOFUnexpected(Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at Emby.Server.Implementations.SocketSharp.WebSocketSharpListener.ProcessWebSocketRequest(HttpContext ctx)
+[2019-12-06 00:24:47.806 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5095437. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:27:48.391 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5101377. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:35:49.581 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5250882. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 00:40:30.302 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5532405. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:01:05.010 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6278453. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:04:05.547 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5497572. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:07:16.159 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5021871. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:13:16.606 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5127937. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:16:17.528 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5453783. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:21:28.829 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5875475. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:25:28.876 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5083578. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:31:30.045 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5073838. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:37:31.934 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5473612. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:40:32.589 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5228143. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:49:34.235 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5287468. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 01:55:35.465 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5831111. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:00:26.359 +00:00] [INF] "DailyTrigger" fired for task: "Chapter image extraction"
+[2019-12-06 02:00:26.380 +00:00] [INF] Queueing task "ChapterImagesTask"
+[2019-12-06 02:00:26.381 +00:00] [INF] Executing "Chapter image extraction"
+[2019-12-06 02:00:27.020 +00:00] [INF] "Chapter image extraction" Completed after 0 minute(s) and 0 seconds
+[2019-12-06 02:00:27.059 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 02:00:27.402 +00:00] [INF] Daily trigger for "Chapter image extraction" set to fire at 12/07/2019 02:00, which is 23:59:32.5979381 from now.
+[2019-12-06 02:10:38.190 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5491528. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:16:39.299 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5056749. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:22:40.532 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5310612. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:28:42.099 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5211735. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:31:42.689 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5974956. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:49:55.390 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5277084. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:50:26.186 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5013052. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:52:56.344 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5205211. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:56:27.432 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5379334. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 02:56:57.454 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5322344. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:04:28.839 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5337572. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:08:09.796 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5092318. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:14:10.789 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5404228. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:29:33.402 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5084223. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:35:35.127 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5054224. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:41:36.226 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5102113. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:50:58.265 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5191462. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:54:07.955 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5469797. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 03:57:09.444 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6142431. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 04:01:29.809 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5135039. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 04:03:10.186 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5338249. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 04:05:00.505 +00:00] [WRN] HTTP Response 200 to "172.18.0.1". Time (slow): 0:00:00.5036654. "http://192.168.1.200:8096/emby/users/7db8499d40e04626811639068e50bad1/items?Recursive=True&IncludeItemTypes=Movie&Fields=ProviderIds,Overview&startIndex=0&limit=200&IsVirtualItem=False"
+[2019-12-06 04:12:22.092 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6293288. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 04:22:23.925 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5033134. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 04:42:38.831 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.7495121. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 04:47:49.767 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5264057. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:12:44.394 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5165224. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:17:04.956 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.532019. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:18:46.011 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5461221. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:22:36.310 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5538842. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:27:47.803 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5235258. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:34:09.108 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.7501284. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:37:08.768 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5336432. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:38:09.534 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.554427. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:43:10.628 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6188622. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:46:10.835 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6082672. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 05:52:12.555 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5191119. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 06:01:14.208 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5239965. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 06:23:19.027 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:01.0279339. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:04:36.876 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5564625. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:07:37.423 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.583386. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:16:39.077 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5304933. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:22:39.739 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5079235. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:28:40.857 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5162775. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:37:43.101 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5042077. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:40:43.644 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5304366. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:46:50.427 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5011897. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 07:58:52.650 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6095883. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:04:54.392 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5315521. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:08:05.081 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5622637. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:17:26.824 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5218842. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:35:30.330 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6665872. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:47:31.915 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5081755. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:50:13.012 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6160341. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:50:32.939 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5705219. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:53:33.133 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5478278. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 08:53:43.170 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5640386. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 09:09:06.933 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5995144. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 09:17:37.825 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5152953. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 09:20:38.814 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.545296. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 09:32:41.576 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5420218. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 09:35:51.284 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5432603. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:18:00.342 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5199181. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:27:01.953 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5038823. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:33:03.208 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.52835. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:35:13.982 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.594791. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:36:03.282 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5225678. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:45:05.690 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5132252. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:48:05.761 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5263693. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:51:06.957 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.505124. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 10:57:08.074 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5440232. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 11:09:10.291 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5053156. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 11:33:25.257 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5028301. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 11:38:17.077 +00:00] [INF] "IntervalTrigger" fired for task: "Scan media library"
+[2019-12-06 11:38:17.077 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-06 11:45:27.729 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5110064. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:00:50.848 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5044672. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:03:51.327 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5263405. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:05:41.674 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5925145. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:10:32.339 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5385797. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:12:33.100 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5560577. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:21:54.929 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5045569. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:27:55.958 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.501791. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:42:58.836 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5411421. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:52:20.786 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5169348. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 12:58:21.996 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.554621. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:00:12.146 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5253899. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:01:22.450 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5093108. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:13:25.225 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6552228. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:16:35.491 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5111712. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:22:56.095 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5329049. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:28:58.043 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5045716. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:40:59.589 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5262181. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:47:01.427 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5044946. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:56:02.480 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5193409. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:56:12.495 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5109435. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 13:59:03.398 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5054402. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:01:14.228 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.586535. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:03:44.463 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5252445. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:04:44.867 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5137125. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:11:06.427 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.759409. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:41:11.456 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.500653. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:48:03.228 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5066697. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 14:53:13.590 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5059984. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:05:16.861 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5025783. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:23:09.635 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5296919. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:24:10.319 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5398112. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:24:28.969 +00:00] [INF] "IntervalTrigger" fired for task: "Check for plugin updates"
+[2019-12-06 15:24:28.969 +00:00] [INF] Queueing task "PluginUpdateTask"
+[2019-12-06 15:24:28.969 +00:00] [INF] Executing "Check for plugin updates"
+[2019-12-06 15:24:30.601 +00:00] [INF] "Check for plugin updates" Completed after 0 minute(s) and 1 seconds
+[2019-12-06 15:24:30.612 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 15:26:21.108 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5426015. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:38:23.393 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5568816. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:42:13.408 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5020617. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:46:55.024 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.537688. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:50:25.002 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5210229. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 15:53:26.451 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5315931. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 16:08:19.173 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5077597. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 16:44:46.591 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5162155. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 16:56:48.470 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5159499. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 17:12:01.942 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5827049. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 17:17:53.087 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5609758. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 17:29:55.408 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5265569. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 17:44:57.948 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5142509. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 17:47:58.440 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5384982. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 17:50:59.129 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5419132. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 18:00:01.515 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5560572. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 18:21:05.553 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5051701. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 18:30:07.606 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5149444. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 18:42:59.543 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5483606. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 18:45:20.343 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5169068. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 18:57:22.134 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5400909. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 19:15:26.366 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5205749. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 19:23:14.443 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:15.998 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=9f0b1aca84b149fd9ff097ababcaf638&deviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1". UserAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0"
+[2019-12-06 19:23:16.356 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:16.367 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:16.385 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:16.617 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:16.624 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:16.629 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 19:23:22.012 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:23.663 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 19:23:23.674 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 19:23:23.686 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 19:23:23.686 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 19:23:23.688 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 19:23:23.724 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:23.732 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:32.463 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:32.475 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 19:23:40.858 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.837684. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/PlayedItems/dc41029a72df50f671f281333155e7a5?DatePlayed=20191206192329"
+[2019-12-06 19:33:31.428 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5253764. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:21:56.985 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5099903. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:27:59.690 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.8844054. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:28:19.796 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5719902. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:28:51.278 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:01.7499069. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:29:40.172 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.6472692. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:30:55.370 +00:00] [INF] Jellyfin version: "10.4.2"
+[2019-12-06 20:30:57.431 +00:00] [INF] Arguments: ["/jellyfin/jellyfin.dll", "--datadir", "/config", "--cachedir", "/cache", "--ffmpeg", "/usr/local/bin/ffmpeg"]
+[2019-12-06 20:30:57.711 +00:00] [INF] Operating system: "Linux"
+[2019-12-06 20:30:57.711 +00:00] [INF] Architecture: X64
+[2019-12-06 20:30:57.715 +00:00] [INF] 64-Bit Process: True
+[2019-12-06 20:30:57.715 +00:00] [INF] User Interactive: True
+[2019-12-06 20:30:57.715 +00:00] [INF] Processor count: 4
+[2019-12-06 20:30:57.715 +00:00] [INF] Program data path: "/config"
+[2019-12-06 20:30:57.715 +00:00] [INF] Web resources path: "/jellyfin/jellyfin-web"
+[2019-12-06 20:30:57.715 +00:00] [INF] Application directory: "/jellyfin/"
+[2019-12-06 20:31:04.768 +00:00] [INF] Setting cache path to /cache
+[2019-12-06 20:31:05.710 +00:00] [INF] Loading assemblies
+[2019-12-06 20:31:28.548 +00:00] [INF] Kestrel listening on all interfaces
+[2019-12-06 20:31:30.915 +00:00] [INF] Running startup tasks
+[2019-12-06 20:31:31.013 +00:00] [INF] Daily trigger for "Chapter image extraction" set to fire at 12/07/2019 02:00, which is 5:28:28.9863123 from now.
+[2019-12-06 20:31:34.108 +00:00] [INF] "StartupTrigger" fired for task: "Check for plugin updates"
+[2019-12-06 20:31:34.110 +00:00] [INF] Queueing task "PluginUpdateTask"
+[2019-12-06 20:31:34.120 +00:00] [INF] Executing "Check for plugin updates"
+[2019-12-06 20:31:37.954 +00:00] [INF] Found ffmpeg version "4.2.1"
+[2019-12-06 20:31:38.892 +00:00] [INF] Available "decoders": ["h264", "h264_cuvid", "hevc", "hevc_cuvid", "mpeg2video", "aac", "ac3", "mp3"]
+[2019-12-06 20:31:38.912 +00:00] [INF] Available "encoders": ["libx264", "h264_nvenc", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_nvenc", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "ac3", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2019-12-06 20:31:38.912 +00:00] [INF] FFmpeg: SetByArgument: "/usr/local/bin/ffmpeg"
+[2019-12-06 20:31:38.943 +00:00] [INF] ServerId: "a19bc94b54cf41428a3df5580a042877"
+[2019-12-06 20:31:39.195 +00:00] [INF] Executed all pre-startup entry points in 0:00:00.2375308
+[2019-12-06 20:31:39.195 +00:00] [INF] Core startup complete
+[2019-12-06 20:31:39.263 +00:00] [INF] Registering publisher for "urn:schemas-upnp-org:device:MediaServer:1" on "172.18.0.2"
+[2019-12-06 20:31:39.562 +00:00] [INF] "Check for plugin updates" Completed after 0 minute(s) and 5 seconds
+[2019-12-06 20:31:39.583 +00:00] [INF] Watching directory /anime/movies
+[2019-12-06 20:31:39.587 +00:00] [INF] Watching directory /anime/tv
+[2019-12-06 20:31:39.635 +00:00] [INF] Executed all post-startup entry points in 0:00:00.439811
+[2019-12-06 20:31:39.649 +00:00] [INF] Watching directory /media/movies
+[2019-12-06 20:31:39.662 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 20:31:39.706 +00:00] [INF] Watching directory /music
+[2019-12-06 20:31:39.715 +00:00] [INF] Watching directory /media/tv
+[2019-12-06 20:31:40.142 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.581673. "http://192.168.1.200:8096/ScheduledTasks?IsEnabled=true"
+[2019-12-06 20:31:40.432 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.8710831. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:32:31.883 +00:00] [INF] "IntervalTrigger" fired for task: "Scan media library"
+[2019-12-06 20:32:31.883 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-06 20:32:31.883 +00:00] [INF] Executing "Scan media library"
+[2019-12-06 20:32:31.891 +00:00] [INF] Stopping directory watching for path "/media/tv"
+[2019-12-06 20:32:31.892 +00:00] [INF] Stopping directory watching for path "/anime/tv"
+[2019-12-06 20:32:31.892 +00:00] [INF] Stopping directory watching for path "/media/movies"
+[2019-12-06 20:32:31.893 +00:00] [INF] Stopping directory watching for path "/anime/movies"
+[2019-12-06 20:32:31.893 +00:00] [INF] Stopping directory watching for path "/music"
+[2019-12-06 20:32:31.897 +00:00] [INF] Validating media library
+[2019-12-06 20:32:32.285 +00:00] [INF] Creating image collage and saving to "/cache/temp/958121386d4f40a787b2cc79f4a96168.png"
+[2019-12-06 20:32:32.584 +00:00] [INF] Completed creation of image collage and saved to "/cache/temp/958121386d4f40a787b2cc79f4a96168.png"
+[2019-12-06 20:32:45.307 +00:00] [INF] MovieDbProvider: Finding id for item: Inglourious Basterds
+[2019-12-06 20:33:14.217 +00:00] [WRN] Unable to find linked item at path "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4"
+[2019-12-06 20:33:14.221 +00:00] [WRN] Unable to find linked item at path "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4"
+[2019-12-06 20:33:22.141 +00:00] [INF] Deleting item, Type: "Episode", Name: "Wave of Science", Path: "", Id: b6af6729-9214-bf7f-cddb-a5a51328d8a8
+[2019-12-06 20:34:07.272 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x1
+[2019-12-06 20:34:07.282 +00:00] [INF] Creating Season "Season 5" entry for "Lucifer"
+[2019-12-06 20:34:10.087 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x2
+[2019-12-06 20:34:11.194 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x3
+[2019-12-06 20:34:12.069 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x4
+[2019-12-06 20:34:12.889 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x5
+[2019-12-06 20:34:13.698 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x6
+[2019-12-06 20:34:16.067 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x7
+[2019-12-06 20:34:16.889 +00:00] [INF] Creating virtual missing/unaired episode "Lucifer" 5x8
+[2019-12-06 20:34:41.331 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.7122355. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-06 20:34:53.702 +00:00] [INF] Creating virtual missing/unaired episode "Watchmen" 1x8
+[2019-12-06 20:34:59.360 +00:00] [INF] Creating virtual missing/unaired episode "Watchmen" 1x9
+[2019-12-06 20:35:32.218 +00:00] [INF] Deleting item, Type: "Episode", Name: "Chapter 5", Path: "", Id: c082e73c-e567-d9f3-91de-e81290f5598f
+[2019-12-06 20:41:43.442 +00:00] [INF] Playback stopped reported by app "Jellyfin Web" "10.4.2" playing "LIKEY". Stopped at "3609" ms
+[2019-12-06 20:48:24.634 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 20:48:27.023 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=9f0b1aca84b149fd9ff097ababcaf638&deviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1". UserAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0"
+[2019-12-06 20:48:27.427 +00:00] [INF] Getting image size for item "CollectionFolder" "/config/metadata/library/7e/7e64e319657a9516ec78490da03edccb/poster.png"
+[2019-12-06 20:48:27.427 +00:00] [INF] Getting image size for item "CollectionFolder" "/config/metadata/library/7e/7e64e319657a9516ec78490da03edccb/poster.png"
+[2019-12-06 20:48:27.895 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 20:48:28.064 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-06 20:48:28.109 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-06 22:30:12.334 +00:00] [INF] "IntervalTrigger" fired for task: "Log file cleanup"
+[2019-12-06 22:30:12.334 +00:00] [INF] Queueing task "DeleteLogFileTask"
+[2019-12-06 22:30:12.334 +00:00] [INF] Executing "Log file cleanup"
+[2019-12-06 22:30:12.407 +00:00] [INF] "IntervalTrigger" fired for task: "Download missing subtitles"
+[2019-12-06 22:30:12.407 +00:00] [INF] Queueing task "SubtitleScheduledTask"
+[2019-12-06 22:30:12.407 +00:00] [INF] Executing "Download missing subtitles"
+[2019-12-06 22:30:12.419 +00:00] [INF] "IntervalTrigger" fired for task: "Refresh Channels"
+[2019-12-06 22:30:12.419 +00:00] [INF] Queueing task "RefreshChannelsScheduledTask"
+[2019-12-06 22:30:12.419 +00:00] [INF] Executing "Refresh Channels"
+[2019-12-06 22:30:12.435 +00:00] [INF] "Log file cleanup" Completed after 0 minute(s) and 0 seconds
+[2019-12-06 22:30:12.435 +00:00] [INF] "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2019-12-06 22:30:12.447 +00:00] [INF] "Refresh Channels" Completed after 0 minute(s) and 0 seconds
+[2019-12-06 22:30:12.491 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 22:30:12.491 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 22:30:12.551 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 22:30:12.638 +00:00] [INF] "IntervalTrigger" fired for task: "Refresh Users"
+[2019-12-06 22:30:12.638 +00:00] [INF] Queueing task "RefreshUsersMetadata"
+[2019-12-06 22:30:12.638 +00:00] [INF] Executing "Refresh Users"
+[2019-12-06 22:30:12.809 +00:00] [INF] "Refresh Users" Completed after 0 minute(s) and 0 seconds
+[2019-12-06 22:30:12.810 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 22:30:13.878 +00:00] [INF] "IntervalTrigger" fired for task: "Cache file cleanup"
+[2019-12-06 22:30:13.878 +00:00] [INF] Queueing task "DeleteCacheFileTask"
+[2019-12-06 22:30:13.878 +00:00] [INF] Executing "Cache file cleanup"
+[2019-12-06 22:30:14.604 +00:00] [INF] "Cache file cleanup" Completed after 0 minute(s) and 0 seconds
+[2019-12-06 22:30:14.605 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-06 23:31:07.810 +00:00] [INF] "IntervalTrigger" fired for task: "Refresh Guide"
+[2019-12-06 23:31:07.810 +00:00] [INF] Queueing task "RefreshChannelsScheduledTask"
+[2019-12-06 23:31:07.810 +00:00] [INF] Executing "Refresh Guide"
+[2019-12-06 23:31:11.569 +00:00] [INF] Refreshing guide with 7 days of guide data
+[2019-12-06 23:31:11.581 +00:00] [INF] "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2019-12-06 23:31:11.581 +00:00] [INF] ExecuteQueuedTasks

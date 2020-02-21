@@ -1,4 +1,11 @@
 version: "3"
+
+networks:
+  web:
+    external: true
+  internal:
+    external: false
+
 services:
   jellyfin:
     container_name: jellyfin
@@ -13,10 +20,17 @@ services:
       - "${MOVIESDIR}:/media/movies"
       - /mnt/usbstorage/Anime/Movies:/anime/movies
       - /mnt/usbstorage/Anime/TV:/anime/tv
+      - /mnt/usbstorage/Music:/music
       - /etc/localtime:/etc/localtime:ro
     user: "1000:1000"
+    networks:
+      - internal
+      - web
     labels:
-      - "traefik.http.routers.jellyfin.rule=Host(`jellyfin.${DOMAIN}`)"
+      - traefik.backend=jellyfin
+      - traefik.frontend.rule=Host:jellyfin.rumbles.online,watch.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=8096
   sonarr:
     container_name: sonarr
     image: linuxserver/sonarr:preview
@@ -36,8 +50,14 @@ services:
     depends_on:
       - jackett
       - deluge
+    networks:
+      - internal
+      - web
     labels:
-      - "traefik.http.routers.sonarr.rule=Host(`sonarr.${DOMAIN}`)"
+      - traefik.backend=sonarr
+      - traefik.frontend.rule=Host:sonarr.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=8989
   radarr:
     container_name: radarr
     image: linuxserver/radarr
@@ -57,8 +77,66 @@ services:
     depends_on:
       - jackett
       - deluge
+    networks:
+      - internal
+      - web
     labels:
-      - "traefik.http.routers.radarr.rule=Host(`radarr.${DOMAIN}`)"
+      - traefik.backend=radarr
+      - traefik.frontend.rule=Host:radarr.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=7878
+  lidarr:
+    container_name: lidarr
+    image: linuxserver/lidarr
+    restart: unless-stopped
+    ports:
+      - 8686:8686
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ./lidarr:/config
+      - ${DLDIR}:/downloads   
+      - /mnt/usbstorage/Music:/music
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
+      - jackett
+      - deluge
+    networks:
+      - internal
+      - web
+    labels:
+      - traefik.backend=lidarr
+      - traefik.frontend.rule=Host:lidarr.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=8686
+       - traefik.port=7878
+  ubooquity:
+    container_name: ubooquity
+    image: linuxserver/ubooquity
+    restart: unless-stopped
+    ports:
+       - 2202:2202
+       - 2203:2203
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ./ubooquity:/config
+      - /mnt/usbstorage/Books:/books  
+      - /mnt/usbstorage/Comics:/comics
+      - /mnt/usbstorage/Files:/files
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - internal
+      - web
+    labels:
+      - traefik.backend=ubooquity
+      - traefik.frontend.rule=Host:read.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=2202
   ombi:
     image: linuxserver/ombi
     container_name: ombi
@@ -71,8 +149,17 @@ services:
     volumes:
       - ./ombi:/config
       - /etc/localtime:/etc/localtime:ro
+    networks:
+      - internal
+      - web
+    networks:
+      - internal
+      - web
     labels:
-      - "traefik.http.routers.ombi.rule=Host(`ombi.${DOMAIN}`)"
+      - traefik.backend=ombi
+      - traefik.frontend.rule=Host:request.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=3579
     depends_on:
       - radarr
       - sonarr
@@ -95,8 +182,14 @@ services:
       - ./deluge:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
+    networks:
+      - internal
+      - web
     labels:
-      - "traefik.http.routers.deluge.rule=Host(`deluge.${DOMAIN}`)"
+      - traefik.backend=deluge
+      - traefik.frontend.rule=Host:deluge.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=8112
   jackett:
     image: linuxserver/jackett
     container_name: jackett
@@ -122,17 +215,13 @@ services:
     volumes:
       - ./heimdall:/config
     ports:
-      - "8888:80"
+      - "8888:8888"
     restart: unless-stopped
+    networks:
+      - internal
+      - web
     labels:
-      - "traefik.http.routers.heimdall.rule=Host(`${DOMAIN}`,`${IP}`)"
-  traefik:
-    image: traefik:v2.0 # The official v2.0 Traefik docker image
-    container_name: traefik
-    command: --api --providers.docker # Enables the web UI and tells Traefik to listen to docker
-    ports:
-      - "80:80" # The HTTP port
-      - "9090:8080" # The Web UI (enabled by --api)
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
-
+      - traefik.backend=heimdall
+      - traefik.frontend.rule=Host:dash.rumbles.online
+      - traefik.docker.network=web
+      - traefik.port=8888

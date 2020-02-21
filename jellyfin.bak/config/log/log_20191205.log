@@ -1,0 +1,1034 @@
+[2019-12-05 00:00:33.913 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=5c39ca2a7e3b407e89d16ecd3509e776&deviceId=a9722d2aee6e3326". UserAgent: "Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36"
+[2019-12-05 00:00:35.062 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5820728. "http://192.168.1.200:8096/Items/a5ce1e204a233574a8818237e6ff3c75/Images/Primary?tag=ca4d33eb16c67ba2cfaf751f447228b5&quality=90"
+[2019-12-05 00:02:24.137 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 00:02:24.137 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E04 - Destroy Malevolence (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:02:24.181 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E04 - Destroy Malevolence (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:02:24.181 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E04 - Destroy Malevolence (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:02:29.037 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 00:02:29.037 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:02:29.037 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:02:29.037 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:02:51.433 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 00:02:51.433 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:02:51.433 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:02:51.433 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:02:51.434 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:02:51.434 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:02:51.434 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:02:51.434 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:02:51.434 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:02:51.434 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:02:51.839 +00:00] [INF] /usr/local/bin/ffmpeg -f matroska,webm -i file:"/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv" -map 0:0 -map 0:1 -codec:v:0 libx264 -force_key_frames "expr:gte(t,n_forced*5)" -copyts -avoid_negative_ts disabled -start_at_zero -filter_complex "[0:6]scale=1920:808:force_original_aspect_ratio=decrease[sub];[0:0][sub]overlay,scale=trunc(min(max(iw\,ih*dar)\,1920)/2)*2:trunc(ow/dar/2)*2" -pix_fmt yuv420p -preset superfast -crf 23 -maxrate 6634416 -bufsize 13268832 -profile:v high -level 4.1 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -vsync -1 -map_metadata -1 -map_chapters -1 -threads 0 -codec:a:0 libmp3lame -ac 2 -ab 320000 -af "volume=2" -y "/config/transcoding-temp/4a28589936ca3c26310ba4a16ed47ac7.mkv"
+[2019-12-05 00:02:58.665 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6208839. "http://192.168.1.200:8096/Sessions/Playing"
+[2019-12-05 00:02:58.750 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 00:02:58.750 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:02:58.750 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:02:58.750 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:02:58.750 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:02:58.750 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:02:58.750 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:02:58.750 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:02:58.750 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:02:58.750 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:02:58.751 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6692606. "http://192.168.1.200:8096/Items/e9d32d99b217604df0bb0a15f1d4b9f5/PlaybackInfo?UserId=7db8499d40e04626811639068e50bad1&StartTimeTicks=0&IsPlayback=false&AutoOpenLiveStream=false&MaxStreamingBitrate=140000000"
+[2019-12-05 00:02:59.555 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.4644314. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:03:39.244 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6658095. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:03:48.844 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5277042. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:04:30.465 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6519555. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:04:40.583 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5374331. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:06:42.649 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6482777. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:07:28.086 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5117643. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:08:08.664 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5201501. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:08:48.036 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5234341. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:09:18.792 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.548219. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:10:19.143 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5960749. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:10:19.543 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.9132916. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 00:12:38.880 +00:00] [INF] Stopping ffmpeg process with q command for "/config/transcoding-temp/4a28589936ca3c26310ba4a16ed47ac7.mkv"
+[2019-12-05 00:12:40.093 +00:00] [INF] FFMpeg exited with code 0
+[2019-12-05 00:12:40.093 +00:00] [INF] Deleting partial stream file(s) "/config/transcoding-temp/4a28589936ca3c26310ba4a16ed47ac7.mkv"
+[2019-12-05 00:12:40.094 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 00:12:40.094 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:09:46.8456643. "http://192.168.1.200:8096/videos/e9d32d99-b217-604d-f0bb-0a15f1d4b9f5/stream.mkv?DeviceId=a9722d2aee6e3326&MediaSourceId=e9d32d99b217604df0bb0a15f1d4b9f5&VideoCodec=h264,vp8,vp9&AudioCodec=mp3,aac,opus,flac,vorbis&AudioStreamIndex=1&SubtitleStreamIndex=6&VideoBitrate=139680000&AudioBitrate=320000&PlaySessionId=02db5211f3f6465cbb0add900cd0bb9b&SubtitleMethod=Encode&TranscodingMaxAudioChannels=2&CopyTimestamps=true&RequireAvc=false&Tag=2c221d2361866daa6faa0da50d6dfd37&h264-profile=high,main,baseline,constrainedbaseline&h264-level=41&TranscodeReasons=SubtitleCodecNotSupported"
+[2019-12-05 00:12:40.096 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 00:12:40.096 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:12:40.096 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:12:40.096 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:12:40.096 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:12:40.096 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:12:40.096 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:12:40.096 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 00:12:40.096 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 00:12:40.096 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 00:12:40.163 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 00:12:40.163 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E04 - Destroy Malevolence (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:12:40.163 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E04 - Destroy Malevolence (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:12:40.164 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E04 - Destroy Malevolence (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 00:12:41.629 +00:00] [INF] Playback stopped reported by app "Jellyfin Mobile" "906" playing "Rookies". Stopped at "370150" ms
+[2019-12-05 00:12:42.100 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:03.2202221. "http://192.168.1.200:8096/Sessions/Playing/Stopped"
+[2019-12-05 00:13:26.680 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.586511. "http://192.168.1.200:8096/Collections?Name=Ant-Man%20Collection%20&IsLocked=false&Ids=fe213bc4eb60aaddd4aa3b8af78fe17a"
+[2019-12-05 00:13:26.826 +00:00] [INF] MovieDbProvider: Finding id for item: Ant-Man Collection 
+[2019-12-05 00:13:56.087 +00:00] [INF] MovieDbProvider: Finding id for item: Marvel Cinematic Universe 
+[2019-12-05 00:14:03.815 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.9807727. "http://192.168.1.200:8096/Items/4459fd5266277cc15d1d1bf910bf436b/Images/Primary?tag=82ec3e75ece7edf1f91309ac01d8fb2a&quality=90"
+[2019-12-05 00:14:41.439 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5129435. "http://192.168.1.200:8096/Items/9ee9ac9fc41cfcd4b51637c5ec811427/Images/Primary?width=210&tag=cf81ae07bb4309c167e86d6a738619ad&quality=40"
+[2019-12-05 00:14:41.443 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5173572. "http://192.168.1.200:8096/Items/16b5d55f4c48900e645d363dd7b8022e/Images/Primary?width=210&tag=850abee3bcc991f223f98b1dddf30ae9&quality=40"
+[2019-12-05 00:14:42.030 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5052519. "http://192.168.1.200:8096/Items/9eb6fd1214f9ffc3b8b64bd6eef45504/Images/Primary?width=210&tag=6fb2191238fe23699b17ff8af144f211&quality=40"
+[2019-12-05 00:14:45.974 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.4984507. "http://192.168.1.200:8096/Items/8cd877e90d75e0eb8e3d40e5c70f70f3/Images/Primary?width=210&tag=5a721490aeba51416673bbdd02a2f86f&quality=40"
+[2019-12-05 00:14:46.324 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.6699345. "http://192.168.1.200:8096/Items/69d8d70c0ec6e1bff7ab04d6bc3aa05a/Images/Primary?width=210&tag=26311893933685d121396dd6f0cd5477&quality=40"
+[2019-12-05 00:14:46.325 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.8503365. "http://192.168.1.200:8096/Items/efe7f5d5a08d6e4bb72767219d5a40aa/Images/Primary?width=210&tag=b8941c5a0ba2af1b83ceab7b9b45829e&quality=40"
+[2019-12-05 00:14:46.325 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.7383701. "http://192.168.1.200:8096/Items/daababfdc70efca2813142931e78b0b2/Images/Primary?width=210&tag=5768637013e602d071bd17f67463f8c4&quality=40"
+[2019-12-05 00:14:46.340 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.7726343. "http://192.168.1.200:8096/Items/a6634b205211ad0e5d3a102ad3d62d92/Images/Primary?width=210&tag=76db426cccdc7a5f12cb6309f0711d57&quality=40"
+[2019-12-05 00:14:47.216 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.7786559. "http://192.168.1.200:8096/Items/ad30e730725ec4c7653edd57ff3de80f/Images/Primary?width=210&tag=86bf4a4c25098d685bf89a6b178fa264&quality=40"
+[2019-12-05 00:14:47.434 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9924651. "http://192.168.1.200:8096/Items/845654a9715de9a247d51a3eafd510d2/Images/Primary?width=210&tag=f034172fdfcd579fb36365fa7c13f2f8&quality=40"
+[2019-12-05 00:14:47.601 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0316568. "http://192.168.1.200:8096/Items/780d2af0342f60c3a91024b1e64f3f8f/Images/Primary?width=210&tag=8410d347ead98ddcb21cf111abe3a534&quality=40"
+[2019-12-05 00:14:47.811 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.3710014. "http://192.168.1.200:8096/Items/c731705cace8699b056fdc3bde60f7ab/Images/Primary?width=210&tag=839c1392570839fe27aaec1ae69683fe&quality=40"
+[2019-12-05 00:14:48.093 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.6528461. "http://192.168.1.200:8096/Items/0fb25a9d56014520a4f89b2f4e05b0c5/Images/Primary?width=210&tag=dcb811ff7af6c4498b1ba5b914f97d87&quality=40"
+[2019-12-05 00:14:48.687 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5818797. "http://192.168.1.200:8096/Items/94b31c31020e33371e381eca934a14bf/Images/Primary?width=210&tag=f86068c70900ec0ec763233cc5d1068b&quality=40"
+[2019-12-05 00:14:48.910 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.8978617. "http://192.168.1.200:8096/Items/080d10f6b87fac006490238eeeb57f7c/Images/Primary?width=210&tag=fcd227e7cead2d82d17b1197744be779&quality=40"
+[2019-12-05 00:14:49.118 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0135532. "http://192.168.1.200:8096/Items/eea7a1cf6c05d79b2fc863e8ec3dd9ae/Images/Primary?width=210&tag=f6391fdb6ef0093b9f1476355e4892c9&quality=40"
+[2019-12-05 00:14:49.321 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.3069232. "http://192.168.1.200:8096/Items/4bf4aa5697b240d7874ccd834fa330ec/Images/Primary?width=210&tag=f6391fdb6ef0093b9f1476355e4892c9&quality=40"
+[2019-12-05 00:14:49.832 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6395552. "http://192.168.1.200:8096/Items/f209d262f921461bce4d6bfbcb8ec8ee/Images/Primary?width=210&tag=5c088c477064f06b1f3419bdb16684a1&quality=40"
+[2019-12-05 00:14:49.995 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6645065. "http://192.168.1.200:8096/Items/932d9571f453d0f0cfe9cc1273bbc1d7/Images/Primary?width=210&tag=423f1c60abad453361041875dfed7d70&quality=40"
+[2019-12-05 00:14:50.450 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:05.8997435. "http://192.168.1.200:8096/Items/fa9a3a022e0aee9feff6525ea8115a4a/Images/Primary?width=210&tag=8b14afdb1dfd6056cd64cdf5ba952d53&quality=40"
+[2019-12-05 00:14:50.742 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.6232719. "http://192.168.1.200:8096/Items/f1868e8129b93bb3db0f75037fc279b5/Images/Primary?width=210&tag=b7ec099ad680da99e868b492139c1a81&quality=40"
+[2019-12-05 00:14:50.893 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0110141. "http://192.168.1.200:8096/Items/f91ca7aeee1056ff6097cbf93521060e/Images/Primary?width=210&tag=581ea450b5aa7ea309c2414fb89a70fa&quality=40"
+[2019-12-05 00:14:50.893 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.6995001. "http://192.168.1.200:8096/Items/da9abcfa23df6ba087640bb401fdb364/Images/Primary?width=210&tag=04ad5d96507c1956834b685c35ed459e&quality=40"
+[2019-12-05 00:14:51.059 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.1793285. "http://192.168.1.200:8096/Items/1c3d5778bd6abd7dbf4ef23b0c4f355f/Images/Primary?width=210&tag=8337fab8e714a145c5ddd23cb9b61e43&quality=40"
+[2019-12-05 00:14:51.281 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.2777022. "http://192.168.1.200:8096/Items/b2327cad48c4011d289939b697709950/Images/Primary?width=210&tag=208bfe0944eb64ebcd0acf7847041410&quality=40"
+[2019-12-05 00:14:51.800 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5672305. "http://192.168.1.200:8096/Items/fa9d4d232f1c35c5d9e8300fdff41660/Images/Primary?width=210&tag=57ca0acefac1059f19797356a3d475ad&quality=40"
+[2019-12-05 00:14:52.014 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9549218. "http://192.168.1.200:8096/Items/7c046ec36846e08cca246910bd65d8d9/Images/Primary?width=210&tag=7c45ec3f5f4f7ac7570a87e0c4cd01af&quality=40"
+[2019-12-05 00:14:52.204 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.770377. "http://192.168.1.200:8096/Items/0604428e464537c52cbe6a860cd7a105/Images/Primary?width=210&tag=075774700e913457033adb46698a4e33&quality=40"
+[2019-12-05 00:14:52.440 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0127889. "http://192.168.1.200:8096/Items/d5880cbc1faebc9d2315de45bb8c7020/Images/Primary?width=210&tag=a859dbfac9b1a86ac09cac4673579448&quality=40"
+[2019-12-05 00:14:52.603 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.7486319. "http://192.168.1.200:8096/Items/73e6f90982a78acd347af38efd66d276/Images/Primary?width=210&tag=d6e0f03da0a141d983320f49e84a5bb9&quality=40"
+[2019-12-05 00:14:52.753 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.5209158. "http://192.168.1.200:8096/Items/6fed1f5da8843b7528f106eb92dc9b98/Images/Primary?width=210&tag=49a48b0b1dc2a2f3bdcc2aec66c9ea29&quality=40"
+[2019-12-05 00:14:52.892 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.8782686. "http://192.168.1.200:8096/Items/090e9e2b412f00b93b2b6549f1b11fd1/Images/Primary?width=210&tag=6d3834f96b6b64e43357e7c23c067f1e&quality=40"
+[2019-12-05 00:14:53.295 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5121118. "http://192.168.1.200:8096/Items/4abe42c57b6c8b9802a918330d1477c5/Images/Primary?width=210&tag=c835698d694993f4de277a14197036fe&quality=40"
+[2019-12-05 00:14:53.572 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.8025283. "http://192.168.1.200:8096/Items/515e8f955e522e176816fb67219d9bc9/Images/Primary?width=210&tag=340fc460ea5942f46dfb4907d3efc72b&quality=40"
+[2019-12-05 00:14:53.895 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0503069. "http://192.168.1.200:8096/Items/b11f26693b9250acf8d1c41cba6a0b77/Images/Primary?width=210&tag=495aec2af8199d8ad6b58cf0b382e505&quality=40"
+[2019-12-05 00:14:54.123 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.9056608. "http://192.168.1.200:8096/Items/f7c0b82422010f5d7d8120d6dd11d859/Images/Primary?width=210&tag=6ea967c733e05be5d69a17ac4dcce81b&quality=40"
+[2019-12-05 00:14:54.252 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.956845. "http://192.168.1.200:8096/Items/df391cc64fa2f4685263663cc1925eb4/Images/Primary?width=210&tag=ce2b0deb7d775cfbadecb6ab276c2e61&quality=40"
+[2019-12-05 00:14:54.504 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0172842. "http://192.168.1.200:8096/Items/fed245c9aef922fa17761db87f867b65/Images/Primary?width=210&tag=070b0a4b2081294ea7264670cd74474c&quality=40"
+[2019-12-05 00:14:54.631 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0512745. "http://192.168.1.200:8096/Items/d15814b6346f20ed065020342a2aba17/Images/Primary?width=210&tag=dcb0473d9471c7d2c363a319bd343a22&quality=40"
+[2019-12-05 00:14:54.939 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.818266. "http://192.168.1.200:8096/Items/ffae4d9e58d802635c9cf74bc2a6684b/Images/Primary?width=210&tag=f869fb1bf6606e2cf5880c9a0bbb13cf&quality=40"
+[2019-12-05 00:14:55.267 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.7621498. "http://192.168.1.200:8096/Items/ed32eb4ca8f590e25f9c4c9178f15c34/Images/Primary?width=210&tag=ea18ed8361f419997aaed8211ed81458&quality=40"
+[2019-12-05 00:14:55.527 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.8956648. "http://192.168.1.200:8096/Items/bd829b24c5e39c01744bd9190a53fd31/Images/Primary?width=210&tag=bfe1575f89a9612ebfa772e3aeaceba9&quality=40"
+[2019-12-05 00:14:55.798 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0275045. "http://192.168.1.200:8096/Items/599f5fa84d23fa0929ce7a4c95f4487a/Images/Primary?width=210&tag=3cd22dac1a6acbe2b36765a643aafccb&quality=40"
+[2019-12-05 00:14:56.033 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.3838157. "http://192.168.1.200:8096/Items/3e24e699cec4a133934fbf14aafbdca5/Images/Primary?width=210&tag=09180a943167376c2023d73de682854b&quality=40"
+[2019-12-05 00:14:56.256 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0201455. "http://192.168.1.200:8096/Items/747fb78fe88cb12ffbde3f4403bf56d5/Images/Primary?width=210&tag=2faace54070b43944404781ff19af34f&quality=40"
+[2019-12-05 00:14:56.372 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0938734. "http://192.168.1.200:8096/Items/dfbef0e3d40417f2c40deebf4f6a3305/Images/Primary?width=210&tag=58e38f8e15134ba66c49d305e7555407&quality=40"
+[2019-12-05 00:14:56.521 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9814226. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/4abe42c57b6c8b9802a918330d1477c5"
+[2019-12-05 00:14:56.683 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:02.051398. "http://192.168.1.200:8096/Items/44092894f7f04e64f532f41ed646c24f/Images/Primary?width=210&tag=948c25c9d41b7d93d101e3168391dc6f&quality=40"
+[2019-12-05 00:14:57.367 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.8450798. "http://192.168.1.200:8096/Items/8fa3664ad5ab53cecab8cc0e06c4385e/Images/Primary?width=210&tag=8674468393782492457c978818528748&quality=40"
+[2019-12-05 00:14:57.552 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.745749. "http://192.168.1.200:8096/Items/3181c0dc6033b104558bd6b54f3c6a99/Images/Primary?width=210&tag=6a791c896d5ba62a4f971f0109e080ae&quality=40"
+[2019-12-05 00:14:57.791 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.2691885. "http://192.168.1.200:8096/Items/16b5e8d3d200818fdc5fe4e90d4a9f6f/Images/Primary?width=210&tag=2e2227f5bdf750bff9fa02fdfc054471&quality=40"
+[2019-12-05 00:14:58.144 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5632406. "http://192.168.1.200:8096/Items/ff5de7fa3a45dd3717b7327e8fd2cec8/Images/Primary?width=210&tag=d60e190027b5f058cddf82267ab16ad2&quality=40"
+[2019-12-05 00:14:58.358 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9903841. "http://192.168.1.200:8096/Items/54fc84ca869f45391f8d898963955a22/Images/Primary?width=210&tag=25563c721814d8290bd1e6f0eae771c3&quality=40"
+[2019-12-05 00:14:58.681 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0950682. "http://192.168.1.200:8096/Items/355f3b0d5dc7dcaa1455b79405c0bcdd/Images/Primary?width=210&tag=8d8f92f991753a04a7d073204c277e79&quality=40"
+[2019-12-05 00:14:59.152 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5563097. "http://192.168.1.200:8096/Items/000635298d6b93c134b55eb7a17743cd/Images/Primary?width=210&tag=912a003172191a364b947be045a79247&quality=40"
+[2019-12-05 02:04:32.753 +00:00] [INF] "DailyTrigger" fired for task: "Chapter image extraction"
+[2019-12-05 02:04:32.859 +00:00] [INF] Queueing task "ChapterImagesTask"
+[2019-12-05 02:04:32.859 +00:00] [INF] Executing "Chapter image extraction"
+[2019-12-05 02:04:33.062 +00:00] [INF] "Chapter image extraction" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 02:04:33.082 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 02:04:33.862 +00:00] [INF] Daily trigger for "Chapter image extraction" set to fire at 12/06/2019 02:00, which is 23:55:26.1379005 from now.
+[2019-12-05 02:42:23.692 +00:00] [ERR] AcceptWebSocketAsync error
+System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.Sockets.SocketException (110): Connection timed out
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketAwaitableEventArgs.<GetResult>g__ThrowSocketException|7_0(SocketError e)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketAwaitableEventArgs.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.ProcessReceives()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.DoReceive()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1MessageBody.PumpAsync()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.MessageBody.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at Emby.Server.Implementations.SocketSharp.WebSocketSharpListener.ProcessWebSocketRequest(HttpContext ctx)
+[2019-12-05 05:19:58.303 +00:00] [INF] "IntervalTrigger" fired for task: "Scan media library"
+[2019-12-05 05:19:58.303 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-05 07:03:15.684 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=5c39ca2a7e3b407e89d16ecd3509e776&deviceId=a9722d2aee6e3326". UserAgent: "Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36"
+[2019-12-05 07:03:39.550 +00:00] [INF] Disposing "CoreAppHost"
+[2019-12-05 07:03:39.568 +00:00] [INF] Disposing "ActivityLogWebSocketListener"
+[2019-12-05 07:03:39.580 +00:00] [INF] Disposing "SessionInfoWebSocketListener"
+[2019-12-05 07:03:39.589 +00:00] [INF] Disposing "ScheduledTasksWebSocketListener"
+[2019-12-05 07:03:39.594 +00:00] [INF] Disposing "SessionWebSocketListener"
+[2019-12-05 07:03:39.594 +00:00] [INF] Disposing "EmbyTV"
+[2019-12-05 07:03:39.611 +00:00] [INF] Disposing "ApiEntryPoint"
+[2019-12-05 07:03:39.627 +00:00] [INF] Disposing "ServerEntryPoint"
+[2019-12-05 07:03:39.627 +00:00] [INF] Disposing "EntryPoint"
+[2019-12-05 07:03:39.627 +00:00] [INF] Disposing "DeviceAccessEntryPoint"
+[2019-12-05 07:03:39.627 +00:00] [INF] Disposing "LibraryMonitorStartup"
+[2019-12-05 07:03:39.627 +00:00] [INF] Disposing "AutomaticRestartEntryPoint"
+[2019-12-05 07:03:39.628 +00:00] [INF] Disposing "ExternalPortForwarding"
+[2019-12-05 07:03:39.684 +00:00] [INF] Disposing "LibraryChangedNotifier"
+[2019-12-05 07:03:39.698 +00:00] [INF] Disposing "RecordingNotifier"
+[2019-12-05 07:03:39.699 +00:00] [INF] Disposing "ServerEventNotifier"
+[2019-12-05 07:03:39.703 +00:00] [INF] Disposing "StartupWizard"
+[2019-12-05 07:03:39.703 +00:00] [INF] Disposing "UdpServerEntryPoint"
+[2019-12-05 07:03:39.703 +00:00] [INF] Disposing "UserDataChangeNotifier"
+[2019-12-05 07:03:39.704 +00:00] [INF] Disposing "DeviceManagerEntryPoint"
+[2019-12-05 07:03:39.704 +00:00] [INF] Disposing "CollectionManagerEntryPoint"
+[2019-12-05 07:03:39.705 +00:00] [INF] Disposing "ActivityLogEntryPoint"
+[2019-12-05 07:03:39.709 +00:00] [INF] Disposing "DlnaEntryPoint"
+[2019-12-05 07:03:39.715 +00:00] [INF] Disposing SsdpDevicePublisher
+[2019-12-05 07:03:39.837 +00:00] [INF] Disposing PlayToManager
+[2019-12-05 07:03:39.838 +00:00] [INF] Disposing DeviceDiscovery
+[2019-12-05 07:03:39.844 +00:00] [INF] Disposing SsdpCommunicationsServer
+[2019-12-05 07:03:39.844 +00:00] [INF] "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2019-12-05 07:03:39.851 +00:00] [INF] "SsdpCommunicationsServer" Disposing 2 sendSockets
+[2019-12-05 07:03:39.852 +00:00] [INF] "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2019-12-05 07:03:39.852 +00:00] [INF] "SsdpCommunicationsServer" disposing sendSocket from "172.18.0.2"
+[2019-12-05 07:03:39.858 +00:00] [INF] Disposing "Notifications"
+[2019-12-05 07:03:39.859 +00:00] [INF] Disposing "EntryPoint"
+[2019-12-05 07:03:49.234 +00:00] [INF] Jellyfin version: "10.4.2"
+[2019-12-05 07:03:49.372 +00:00] [INF] Arguments: ["/jellyfin/jellyfin.dll", "--datadir", "/config", "--cachedir", "/cache", "--ffmpeg", "/usr/local/bin/ffmpeg"]
+[2019-12-05 07:03:49.415 +00:00] [INF] Operating system: "Linux"
+[2019-12-05 07:03:49.416 +00:00] [INF] Architecture: X64
+[2019-12-05 07:03:49.418 +00:00] [INF] 64-Bit Process: True
+[2019-12-05 07:03:49.418 +00:00] [INF] User Interactive: True
+[2019-12-05 07:03:49.419 +00:00] [INF] Processor count: 4
+[2019-12-05 07:03:49.419 +00:00] [INF] Program data path: "/config"
+[2019-12-05 07:03:49.419 +00:00] [INF] Web resources path: "/jellyfin/jellyfin-web"
+[2019-12-05 07:03:49.419 +00:00] [INF] Application directory: "/jellyfin/"
+[2019-12-05 07:03:50.318 +00:00] [INF] Setting cache path to /cache
+[2019-12-05 07:03:50.399 +00:00] [INF] Loading assemblies
+[2019-12-05 07:03:54.250 +00:00] [INF] Kestrel listening on all interfaces
+[2019-12-05 07:03:54.504 +00:00] [INF] Running startup tasks
+[2019-12-05 07:03:54.545 +00:00] [INF] Daily trigger for "Chapter image extraction" set to fire at 12/06/2019 02:00, which is 18:56:05.4542503 from now.
+[2019-12-05 07:03:55.407 +00:00] [INF] Found ffmpeg version "4.2.1"
+[2019-12-05 07:03:55.453 +00:00] [INF] Available "decoders": ["h264", "h264_cuvid", "hevc", "hevc_cuvid", "mpeg2video", "aac", "ac3", "mp3"]
+[2019-12-05 07:03:55.474 +00:00] [INF] Available "encoders": ["libx264", "h264_nvenc", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_nvenc", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "ac3", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2019-12-05 07:03:55.474 +00:00] [INF] FFmpeg: SetByArgument: "/usr/local/bin/ffmpeg"
+[2019-12-05 07:03:55.481 +00:00] [INF] ServerId: "a19bc94b54cf41428a3df5580a042877"
+[2019-12-05 07:03:55.861 +00:00] [INF] Executed all pre-startup entry points in 0:00:00.3621318
+[2019-12-05 07:03:55.862 +00:00] [INF] Core startup complete
+[2019-12-05 07:03:57.029 +00:00] [INF] Executed all post-startup entry points in 0:00:00.4169061
+[2019-12-05 07:03:57.032 +00:00] [INF] Watching directory /anime/movies
+[2019-12-05 07:03:57.043 +00:00] [INF] Registering publisher for "urn:schemas-upnp-org:device:MediaServer:1" on "172.18.0.2"
+[2019-12-05 07:03:57.165 +00:00] [INF] Watching directory /anime/tv
+[2019-12-05 07:03:57.620 +00:00] [INF] Watching directory /media/tv
+[2019-12-05 07:03:57.679 +00:00] [INF] Watching directory /media/movies
+[2019-12-05 07:03:58.343 +00:00] [INF] "StartupTrigger" fired for task: "Check for plugin updates"
+[2019-12-05 07:03:58.346 +00:00] [INF] Queueing task "PluginUpdateTask"
+[2019-12-05 07:03:58.355 +00:00] [INF] Executing "Check for plugin updates"
+[2019-12-05 07:03:59.641 +00:00] [INF] "Check for plugin updates" Completed after 0 minute(s) and 1 seconds
+[2019-12-05 07:03:59.707 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 07:04:01.000 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=5c39ca2a7e3b407e89d16ecd3509e776&deviceId=a9722d2aee6e3326". UserAgent: "Mozilla/5.0 (Linux; Android 9; SM-A505FN Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36"
+[2019-12-05 07:04:32.432 +00:00] [ERR] Error sending web socket message "Sessions"
+System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at System.Threading.CancellationTokenSource.ThrowObjectDisposedException()
+   at MediaBrowser.Controller.Net.BasePeriodicWebSocketListener`2.SendData(Tuple`3 tuple)
+[2019-12-05 07:04:49.762 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5172626. "http://192.168.1.200:8096/Items/5e0ba74d9ff75bce5517757cbf420519/Images/Primary?tag=5edb50f44a7081893a326cfaa6d4d476&quality=90"
+[2019-12-05 07:04:49.812 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5458332. "http://192.168.1.200:8096/Items/c7bdfab0fa30eec9f8084943479cb097/Images/Primary?tag=274b312b746f4422a46f74dfc5d4e481&quality=90"
+[2019-12-05 07:04:50.577 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.3961326. "http://192.168.1.200:8096/Items/133c12daf3c9e52b37b4f1feca2a35b8/Images/Backdrop/0?tag=ed02c0c4614d639e4c085a40cfc1b16c&quality=80"
+[2019-12-05 07:04:50.914 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5674069. "http://192.168.1.200:8096/Items/95413ed99c3538f615397fa14388af07/Images/Primary?tag=3f0eadd49198095f390484253c70d0ed&quality=90"
+[2019-12-05 07:04:51.036 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.7560709. "http://192.168.1.200:8096/Items/d22e07515fdcf8aab9078115b21658ae/Images/Primary?tag=b550087d3c72a9b973741d179155c70f&quality=90"
+[2019-12-05 07:04:51.337 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9852152. "http://192.168.1.200:8096/Items/4cb0ff574095cc8440d480813e612859/Images/Primary?tag=f5468c904f1157fd459a848f08e1465b&quality=90"
+[2019-12-05 07:04:52.924 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.949111. "http://192.168.1.200:8096/Items/dbba379997af54b06e9865ae1a49aae4/Images/Primary?tag=19f7942a55b9cd13911a3b4f1d5257a8&quality=90"
+[2019-12-05 07:04:55.350 +00:00] [INF] "IntervalTrigger" fired for task: "Scan media library"
+[2019-12-05 07:04:55.350 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-05 07:04:55.350 +00:00] [INF] Executing "Scan media library"
+[2019-12-05 07:04:55.366 +00:00] [INF] Stopping directory watching for path "/media/movies"
+[2019-12-05 07:04:55.367 +00:00] [INF] Stopping directory watching for path "/anime/tv"
+[2019-12-05 07:04:55.367 +00:00] [INF] Stopping directory watching for path "/anime/movies"
+[2019-12-05 07:04:55.367 +00:00] [INF] Stopping directory watching for path "/media/tv"
+[2019-12-05 07:04:55.372 +00:00] [INF] Validating media library
+[2019-12-05 07:04:55.839 +00:00] [INF] Creating image collage and saving to "/cache/temp/75d2ad552ce64d04ad60d40f6920b744.png"
+[2019-12-05 07:04:56.426 +00:00] [INF] Completed creation of image collage and saved to "/cache/temp/75d2ad552ce64d04ad60d40f6920b744.png"
+[2019-12-05 07:04:57.341 +00:00] [INF] Deleting item, Type: "Movie", Name: "Ant-Man", Path: "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4", Id: fe213bc4-eb60-aadd-d4aa-3b8af78fe17a
+[2019-12-05 07:05:08.420 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6558049. "http://192.168.1.200:8096/Items/577bfd6ac4991c96ee96fdc95e6ebe79/Images/Primary?tag=aead457ef154e17688d3727120b14535&quality=90"
+[2019-12-05 07:05:08.580 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.8038866. "http://192.168.1.200:8096/Items/608f6c2183ade7886b52d3be863a91ff/Images/Primary?tag=03a0880770d4cf5712338ba3a4900d0c&quality=90"
+[2019-12-05 07:05:08.805 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.7772037. "http://192.168.1.200:8096/Items/5794036aa2c72e441b95ed37c46642a3/Images/Primary?tag=cf017912e89b6bdac5ff55270ee90c09&quality=90"
+[2019-12-05 07:05:08.981 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.2174285. "http://192.168.1.200:8096/Items/b3446da6e199a6014fb37b9955242d64/Images/Primary?tag=2f226816b7131348bd3b53254c4647a1&quality=90"
+[2019-12-05 07:05:09.314 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.533138. "http://192.168.1.200:8096/Items/d42618f8bdecdfbaeab4eccc3d36118b/Images/Primary?tag=bb2a69637fbfa2c1dcff2f7cb701d3b4&quality=90"
+[2019-12-05 07:05:13.126 +00:00] [INF] MovieDbProvider: Finding id for item: Angel Has Fallen
+[2019-12-05 07:05:19.284 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:04.1542874. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/5e0ba74d9ff75bce5517757cbf420519"
+[2019-12-05 07:05:23.916 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:04.56228. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/5e0ba74d9ff75bce5517757cbf420519"
+[2019-12-05 07:05:24.536 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5775014. "http://192.168.1.200:8096/Shows/5e0ba74d9ff75bce5517757cbf420519/Seasons?userId=7db8499d40e04626811639068e50bad1&Fields=ItemCounts%2CPrimaryImageAspectRatio%2CBasicSyncInfo%2CCanDelete%2CMediaSourceCount"
+[2019-12-05 07:05:24.940 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.9801565. "http://192.168.1.200:8096/Items/5e0ba74d9ff75bce5517757cbf420519/Similar?userId=7db8499d40e04626811639068e50bad1&limit=12&fields=PrimaryImageAspectRatio%2CUserData%2CCanDelete"
+[2019-12-05 07:05:24.946 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.0196656. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/5e0ba74d9ff75bce5517757cbf420519"
+[2019-12-05 07:05:25.947 +00:00] [INF] MovieDbProvider: Finding id for item: Ant.Man
+[2019-12-05 07:05:26.192 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.1139927. "http://192.168.1.200:8096/Items/2829306db3256c7121bc2b9081aadf94/Images/Primary?tag=67241f03ea82e06bb7335794befc7c25&quality=90"
+[2019-12-05 07:05:26.348 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.2814548. "http://192.168.1.200:8096/Items/80b06eedac0fe03b5c126c061bcc42af/Images/Primary?tag=9b54be7c1824692a64ceb347e564ca58&quality=90"
+[2019-12-05 07:05:26.525 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.4471445. "http://192.168.1.200:8096/Items/82767fb86e37c36a03ac4d54951ca6fb/Images/Primary?tag=72c646ea0ea1e4c0ff2f5396e527c259&quality=90"
+[2019-12-05 07:05:26.715 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:01.5769725. "http://192.168.1.200:8096/Items/b4fd3267315f6b4e7e15e2fde4cd1334/Images/Primary?tag=0173b2bd894e504a82d7bbd121ac996d&quality=90"
+[2019-12-05 07:05:28.023 +00:00] [INF] MovieDbProvider: Finding id for item: Pokémon Detective Pikachu
+[2019-12-05 07:05:42.599 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:02.391024. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/843906139af71bef7e0ea7e14153db8e"
+[2019-12-05 07:05:43.045 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.5373749. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/e9d32d99b217604df0bb0a15f1d4b9f5"
+[2019-12-05 07:05:45.894 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 07:05:45.914 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:45.915 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:45.915 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:45.952 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:45.952 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:45.952 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:45.952 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:45.952 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:45.952 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:46.348 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.8391783. "http://192.168.1.200:8096/Shows/843906139af71bef7e0ea7e14153db8e/Episodes?SeasonId=ed3a7dbec1e44404c54c09a96ff063ef&UserId=7db8499d40e04626811639068e50bad1&Fields=ItemCounts%2CPrimaryImageAspectRatio%2CBasicSyncInfo%2CCanDelete%2CMediaSourceCount"
+[2019-12-05 07:05:46.350 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:03.247281. "http://192.168.1.200:8096/Shows/843906139af71bef7e0ea7e14153db8e/Episodes?IsVirtualUnaired=false&IsMissing=false&UserId=7db8499d40e04626811639068e50bad1&Fields=Chapters"
+[2019-12-05 07:05:46.534 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 07:05:46.534 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:46.534 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:46.534 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:46.534 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:46.534 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:46.534 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:46.535 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:46.535 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:46.535 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:46.976 +00:00] [INF] /usr/local/bin/ffmpeg -ss 00:06:10.150 -f matroska,webm -i file:"/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv" -map 0:0 -map 0:1 -codec:v:0 libx264 -force_key_frames "expr:gte(t,n_forced*5)" -copyts -avoid_negative_ts disabled -start_at_zero -filter_complex "[0:6]scale=1920:808:force_original_aspect_ratio=decrease[sub];[0:0][sub]overlay,scale=trunc(min(max(iw\,ih*dar)\,1920)/2)*2:trunc(ow/dar/2)*2" -pix_fmt yuv420p -preset superfast -crf 23 -maxrate 6634416 -bufsize 13268832 -profile:v high -level 4.1 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -vsync -1 -map_metadata -1 -map_chapters -1 -threads 0 -codec:a:0 libmp3lame -ac 2 -ab 320000 -af "volume=2" -y "/config/transcoding-temp/b37b08aa41355d432e669e3c64f08657.mkv"
+[2019-12-05 07:05:51.695 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 07:05:51.695 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:51.695 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:51.696 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:51.696 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:51.696 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:51.696 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:51.696 +00:00] [INF] Not eligible for DirectPlay due to unsupported subtitles
+[2019-12-05 07:05:51.696 +00:00] [INF] Not eligible for DirectStream due to unsupported subtitles
+[2019-12-05 07:05:51.696 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E05 - Rookies (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: False, isEligibleForDirectStream: False
+[2019-12-05 07:05:53.829 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:02.0636707. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:05:54.638 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:03.1352897. "http://192.168.1.200:8096/Sessions/Playing"
+[2019-12-05 07:06:00.533 +00:00] [INF] MovieDbProvider: Finding id for item: Solo A Star Wars Story
+[2019-12-05 07:06:03.136 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.1829579. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:06:16.915 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5982756. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:06:18.643 +00:00] [INF] MovieDbProvider: Finding id for item: Spider-Man.Homecoming
+[2019-12-05 07:06:20.033 +00:00] [WRN] Unable to find linked item at path "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4"
+[2019-12-05 07:06:20.241 +00:00] [WRN] Unable to find linked item at path "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4"
+[2019-12-05 07:06:29.972 +00:00] [INF] Creating Season "Season Unknown" entry for "Dr. Stone"
+[2019-12-05 07:06:30.659 +00:00] [INF] Creating virtual missing/unaired episode "Dr. Stone" 1x23
+[2019-12-05 07:06:30.665 +00:00] [INF] Creating Season "Season 1" entry for "Dr. Stone"
+[2019-12-05 07:06:33.510 +00:00] [INF] Creating virtual missing/unaired episode "Dr. Stone" 1x24
+[2019-12-05 07:06:40.061 +00:00] [INF] Removing virtual season "Dr. Stone" null
+[2019-12-05 07:06:40.061 +00:00] [INF] Deleting item, Type: "Season", Name: "Season Unknown", Path: "", Id: f461a79e-5948-af6e-c587-f28850c372b0
+[2019-12-05 07:06:54.144 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.0700657. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:07:02.868 +00:00] [INF] Creating virtual missing/unaired episode "Haikyuu!!" 4x1
+[2019-12-05 07:07:02.868 +00:00] [INF] Creating Season "Season 4" entry for "Haikyuu!!"
+[2019-12-05 07:07:09.018 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:46.013 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:47.291 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:49.360 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6208731. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:06:49.506 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:50.525 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:51.591 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:52.614 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:53.440 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:54.914 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:56.068 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:57.166 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:58.186 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:06:59.595 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:01.192 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:02.655 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:03.775 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:05.215 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:06.346 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:07.657 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:09.594 +00:00] [ERR] "TvdbEpisodeImageProvider" failed in GetImageInfos for type "Episode"
+System.InvalidOperationException: Nullable object must have a value.
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.Manager.ProviderManager.GetImages(BaseItem item, CancellationToken cancellationToken, IRemoteImageProvider provider, List`1 preferredLanguages, Nullable`1 type)
+[2019-12-05 07:07:24.298 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:32]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:24.455 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:32]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:26.134 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:40]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:26.294 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:40]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:27.786 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:25]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:27.933 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:25]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:29.388 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:26]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:29.540 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:26]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:31.243 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:27]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:31.387 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:27]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:32.932 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:28]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:33.073 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:28]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:34.433 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:29]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:34.675 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:29]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:35.995 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:30]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:36.148 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:30]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:37.869 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:31]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:38.020 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:31]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:39.488 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:33]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:39.741 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:33]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:41.412 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:34]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:41.564 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:34]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:43.003 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:35]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:43.142 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:35]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:44.488 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:36]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:44.696 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:36]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:46.286 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:37]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:46.431 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:37]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:48.104 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:38]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:48.260 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:38]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:51.278 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:39]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:51.850 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:39]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:53.346 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:41]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:53.518 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:41]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:55.467 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:42]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:55.668 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:42]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:57.113 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:43]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:57.265 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:43]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:07:58.888 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:44]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:07:59.035 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:44]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:01.313 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:45]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:01.799 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:45]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:03.196 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:46]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:03.341 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:46]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:04.957 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:47]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:05.178 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:47]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:06.687 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:48]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:06.835 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:2 EpisodeNumber:48]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:08.244 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:7]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:08.387 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:7]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:09.939 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:14]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:10.221 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:14]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:12.229 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:21]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:12.380 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:21]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:13.731 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:28]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:13.882 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:28]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:16.079 +00:00] [ERR] Failed to retrieve episode with id null, series id null
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:35]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeProvider.GetEpisode(EpisodeInfo searchInfo, CancellationToken cancellationToken)
+[2019-12-05 07:08:16.226 +00:00] [ERR] Failed to retrieve episode images for series "83950"
+TvDbSharper.TvDbServerException: The given series ID does not exist; No results for your query: map[AiredSeason:4 EpisodeNumber:35]
+   at TvDbSharper.Infrastructure.Parser.Parse[T](ApiResponse response, IReadOnlyDictionary`2 errorMap)
+   at TvDbSharper.Clients.SeriesClient.GetEpisodesAsync(Int32 seriesId, Int32 page, EpisodeQuery query, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.TryGetValue[T](String key, String language, Func`1 resultFactory)
+   at MediaBrowser.Providers.TV.TheTVDB.TvDbClientManager.GetEpisodeTvdbId(Int32 seriesTvdbId, EpisodeQuery episodeQuery, String language, CancellationToken cancellationToken)
+   at MediaBrowser.Providers.TV.TheTVDB.TvdbEpisodeImageProvider.GetImages(BaseItem item, CancellationToken cancellationToken)
+[2019-12-05 07:08:20.614 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.521657. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:09:10.934 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5731096. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:09:21.186 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5743459. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:10:02.584 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5367834. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:10:33.858 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5428536. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:10:42.602 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5436232. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:12:15.951 +00:00] [INF] FFMpeg exited with code 0
+[2019-12-05 07:12:24.098 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5768107. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:13:46.301 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5227118. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:14:17.455 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.7413962. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:14:56.936 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5017041. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:15:28.874 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5809678. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:17:00.244 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5110296. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:17:11.065 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5132442. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:18:31.345 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.743105. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:19:12.789 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5117364. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:19:24.043 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5432283. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:20:04.333 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5194014. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:20:14.537 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5137332. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:20:44.828 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5773436. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:21:37.721 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6995691. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:21:51.894 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:16:26.778999. "http://192.168.1.200:8096/videos/e9d32d99-b217-604d-f0bb-0a15f1d4b9f5/stream.mkv?DeviceId=a9722d2aee6e3326&MediaSourceId=e9d32d99b217604df0bb0a15f1d4b9f5&VideoCodec=h264,vp8,vp9&AudioCodec=mp3,aac,opus,flac,vorbis&AudioStreamIndex=1&SubtitleStreamIndex=6&VideoBitrate=139680000&AudioBitrate=320000&StartTimeTicks=3701501290&PlaySessionId=a431992ac8514ff98ed582190abf4b5d&SubtitleMethod=Encode&TranscodingMaxAudioChannels=2&CopyTimestamps=true&RequireAvc=false&Tag=2c221d2361866daa6faa0da50d6dfd37&h264-profile=high,main,baseline,constrainedbaseline&h264-level=41&TranscodeReasons=SubtitleCodecNotSupported"
+[2019-12-05 07:22:26.483 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5201891. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:22:53.540 +00:00] [INF] Deleting partial stream file(s) "/config/transcoding-temp/b37b08aa41355d432e669e3c64f08657.mkv"
+[2019-12-05 07:22:53.546 +00:00] [INF] Playback stopped reported by app "Jellyfin Mobile" "906" playing "Rookies". Stopped at "0" ms
+[2019-12-05 07:22:53.999 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 07:22:54.000 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 07:22:54.011 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 07:22:54.012 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 07:22:54.387 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.8533604. "http://192.168.1.200:8096/Sessions/Playing/Stopped"
+[2019-12-05 07:22:54.837 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 07:22:54.851 +00:00] [WRN] HTTP Response 206 to "192.168.1.11". Time (slow): 0:00:00.5562788. "http://192.168.1.200:8096/Videos/c27c1e50ee6f4f459f769c9177d8c122/stream.mkv?Static=true&mediaSourceId=c27c1e50ee6f4f459f769c9177d8c122&deviceId=a9722d2aee6e3326&Tag=d4151019e1cf28ca16101ed5f8cf2e45"
+[2019-12-05 07:22:55.112 +00:00] [INF] Playback stopped reported by app "Jellyfin Mobile" "906" playing "Rookies". Stopped at "1414751" ms
+[2019-12-05 07:22:55.507 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.9850713. "http://192.168.1.200:8096/Sessions/Playing/Stopped"
+[2019-12-05 07:23:04.151 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6276845. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:23:04.153 +00:00] [INF] User policy for "Ben". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
+[2019-12-05 07:23:04.153 +00:00] [INF] Profile: "Unknown Profile", Path: "/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv", isEligibleForDirectPlay: True, isEligibleForDirectStream: True
+[2019-12-05 07:23:04.155 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:00:00.6007324. "http://192.168.1.200:8096/Items/c27c1e50ee6f4f459f769c9177d8c122/PlaybackInfo?UserId=7db8499d40e04626811639068e50bad1&StartTimeTicks=1271430&IsPlayback=true&AutoOpenLiveStream=true&AudioStreamIndex=1&EnableDirectPlay=false&EnableDirectStream=false&AllowVideoStreamCopy=false&MediaSourceId=c27c1e50ee6f4f459f769c9177d8c122&MaxStreamingBitrate=140000000"
+[2019-12-05 07:23:04.236 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 07:23:04.236 +00:00] [WRN] HTTP Response 206 to "192.168.1.11". Time (slow): 0:00:08.4794772. "http://192.168.1.200:8096/Videos/c27c1e50ee6f4f459f769c9177d8c122/stream.mkv?Static=true&mediaSourceId=c27c1e50ee6f4f459f769c9177d8c122&deviceId=a9722d2aee6e3326&Tag=d4151019e1cf28ca16101ed5f8cf2e45"
+[2019-12-05 07:23:04.630 +00:00] [INF] /usr/local/bin/ffmpeg -ss 00:00:00.127 -f matroska,webm -i file:"/media/tv/Star Wars - The Clone Wars/Season 1/Star Wars The Clone Wars (2008) - S01E06 - Downfall of a Droid (1080p BluRay x265 RCVR).mkv" -map 0:0 -map 0:1 -map -0:s -codec:v:0 libx264 -force_key_frames "expr:gte(t,n_forced*5)" -vf "scale=trunc(min(max(iw\,ih*dar)\,1920)/2)*2:trunc(ow/dar/2)*2" -copyts -avoid_negative_ts disabled -start_at_zero -pix_fmt yuv420p -preset superfast -crf 23 -maxrate 11689132 -bufsize 23378264 -profile:v high -level 4.1 -x264opts:0 subme=0:me_range=4:rc_lookahead=10:me=dia:no_chroma_me:8x8dct=0:partitions=none -vsync -1 -map_metadata -1 -map_chapters -1 -threads 0 -codec:a:0 libmp3lame -ac 2 -ab 320000 -af "volume=2" -y "/config/transcoding-temp/2f54acd5a4985af9a257f47f3aeba4b4.mkv"
+[2019-12-05 07:23:07.804 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.8363665. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:23:17.645 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5940296. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:24:39.751 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.9940337. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:26:21.051 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.502992. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:27:47.748 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:01.0032262. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:29:13.929 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5486382. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:29:23.914 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5237859. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:29:46.203 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5447508. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:29:49.380 +00:00] [INF] FFMpeg exited with code 0
+[2019-12-05 07:30:45.954 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5193193. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:30:56.177 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.6313891. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:31:49.926 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5011748. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:32:23.888 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.5016317. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:33:24.788 +00:00] [WRN] HTTP Response 204 to "192.168.1.11". Time (slow): 0:00:00.7514337. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 07:40:35.887 +00:00] [INF] Playback stopped reported by app "Jellyfin Mobile" "906" playing "Downfall of a Droid". Stopped at "517948" ms
+[2019-12-05 07:49:58.641 +00:00] [ERR] AcceptWebSocketAsync error
+System.Net.WebSockets.WebSocketException (0xFFFFFFFF): The remote party closed the WebSocket connection without completing the close handshake. ---> System.Net.Sockets.SocketException (113): No route to host
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketAwaitableEventArgs.<GetResult>g__ThrowSocketException|7_0(SocketError e)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketAwaitableEventArgs.GetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.ProcessReceives()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.Internal.SocketConnection.DoReceive()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1MessageBody.PumpAsync()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.MessageBody.ReadAsync(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken, Boolean throwOnPrematureClosure)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TWebSocketReceiveResultGetter,TWebSocketReceiveResult](Memory`1 payloadBuffer, CancellationToken cancellationToken, TWebSocketReceiveResultGetter resultGetter)
+   at Emby.Server.Implementations.SocketSharp.WebSocketSharpListener.ProcessWebSocketRequest(HttpContext ctx)
+[2019-12-05 08:04:20.501 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 08:04:20.501 +00:00] [WRN] HTTP Response 200 to "192.168.1.11". Time (slow): 0:41:07.2647274. "http://192.168.1.200:8096/videos/c27c1e50-ee6f-4f45-9f76-9c9177d8c122/stream.mkv?DeviceId=a9722d2aee6e3326&MediaSourceId=c27c1e50ee6f4f459f769c9177d8c122&VideoCodec=h264,vp8,vp9&AudioCodec=mp3,aac,opus,flac,vorbis&AudioStreamIndex=1&VideoBitrate=139680000&AudioBitrate=320000&StartTimeTicks=1271430&PlaySessionId=804aa1fb87fd472ba31b7ddb406d8890&TranscodingMaxAudioChannels=2&CopyTimestamps=true&RequireAvc=false&Tag=d4151019e1cf28ca16101ed5f8cf2e45&h264-profile=high,main,baseline,constrainedbaseline&h264-level=41&TranscodeReasons=ContainerBitrateExceedsLimit&allowVideoStreamCopy=false"
+[2019-12-05 15:22:00.057 +00:00] [INF] "IntervalTrigger" fired for task: "Check for plugin updates"
+[2019-12-05 15:22:00.093 +00:00] [INF] Queueing task "PluginUpdateTask"
+[2019-12-05 15:22:00.094 +00:00] [INF] Executing "Check for plugin updates"
+[2019-12-05 15:22:00.896 +00:00] [INF] "Check for plugin updates" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 15:22:01.070 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 19:07:04.267 +00:00] [INF] "IntervalTrigger" fired for task: "Scan media library"
+[2019-12-05 19:07:04.267 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-05 21:23:50.578 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=9f0b1aca84b149fd9ff097ababcaf638&deviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1". UserAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0"
+[2019-12-05 22:29:48.153 +00:00] [INF] "IntervalTrigger" fired for task: "Download missing subtitles"
+[2019-12-05 22:29:48.237 +00:00] [INF] Queueing task "SubtitleScheduledTask"
+[2019-12-05 22:29:48.238 +00:00] [INF] Executing "Download missing subtitles"
+[2019-12-05 22:29:48.253 +00:00] [INF] "IntervalTrigger" fired for task: "Refresh Channels"
+[2019-12-05 22:29:48.253 +00:00] [INF] "IntervalTrigger" fired for task: "Log file cleanup"
+[2019-12-05 22:29:48.271 +00:00] [INF] Queueing task "RefreshChannelsScheduledTask"
+[2019-12-05 22:29:48.271 +00:00] [INF] Queueing task "DeleteLogFileTask"
+[2019-12-05 22:29:48.271 +00:00] [INF] Executing "Refresh Channels"
+[2019-12-05 22:29:48.271 +00:00] [INF] Executing "Log file cleanup"
+[2019-12-05 22:29:48.608 +00:00] [INF] "Log file cleanup" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 22:29:48.658 +00:00] [INF] "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 22:29:48.668 +00:00] [INF] "Refresh Channels" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 22:29:48.688 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 22:29:48.688 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 22:29:48.688 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 22:29:48.793 +00:00] [INF] "IntervalTrigger" fired for task: "Refresh Users"
+[2019-12-05 22:29:48.793 +00:00] [INF] Queueing task "RefreshUsersMetadata"
+[2019-12-05 22:29:48.793 +00:00] [INF] Executing "Refresh Users"
+[2019-12-05 22:29:48.883 +00:00] [INF] "Refresh Users" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 22:29:48.899 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 22:29:49.212 +00:00] [INF] "IntervalTrigger" fired for task: "Cache file cleanup"
+[2019-12-05 22:29:49.212 +00:00] [INF] Queueing task "DeleteCacheFileTask"
+[2019-12-05 22:29:49.212 +00:00] [INF] Executing "Cache file cleanup"
+[2019-12-05 22:29:50.127 +00:00] [INF] "Cache file cleanup" Completed after 0 minute(s) and 0 seconds
+[2019-12-05 22:29:50.127 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 23:00:32.364 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:00:32.364 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:00:34.176 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=9f0b1aca84b149fd9ff097ababcaf638&deviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1". UserAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0"
+[2019-12-05 23:00:34.436 +00:00] [INF] Getting image size for item "CollectionFolder" "/config/metadata/library/9d/9d7ad6afe9afa2dab1a2f6e00ad28fa6/poster.png"
+[2019-12-05 23:00:34.517 +00:00] [INF] Getting image size for item "CollectionFolder" "/config/metadata/library/9d/9d7ad6afe9afa2dab1a2f6e00ad28fa6/poster.png"
+[2019-12-05 23:00:35.042 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:00:35.068 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:00:35.119 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:30:32.682 +00:00] [INF] "IntervalTrigger" fired for task: "Refresh Guide"
+[2019-12-05 23:30:32.683 +00:00] [INF] Queueing task "RefreshChannelsScheduledTask"
+[2019-12-05 23:30:32.683 +00:00] [INF] Executing "Refresh Guide"
+[2019-12-05 23:30:36.037 +00:00] [INF] Refreshing guide with 7 days of guide data
+[2019-12-05 23:30:36.058 +00:00] [INF] "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2019-12-05 23:30:36.060 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 23:35:12.975 +00:00] [INF] Jellyfin version: "10.4.2"
+[2019-12-05 23:35:13.381 +00:00] [INF] Arguments: ["/jellyfin/jellyfin.dll", "--datadir", "/config", "--cachedir", "/cache", "--ffmpeg", "/usr/local/bin/ffmpeg"]
+[2019-12-05 23:35:13.419 +00:00] [INF] Operating system: "Linux"
+[2019-12-05 23:35:13.419 +00:00] [INF] Architecture: X64
+[2019-12-05 23:35:13.422 +00:00] [INF] 64-Bit Process: True
+[2019-12-05 23:35:13.422 +00:00] [INF] User Interactive: True
+[2019-12-05 23:35:13.422 +00:00] [INF] Processor count: 4
+[2019-12-05 23:35:13.422 +00:00] [INF] Program data path: "/config"
+[2019-12-05 23:35:13.422 +00:00] [INF] Web resources path: "/jellyfin/jellyfin-web"
+[2019-12-05 23:35:13.422 +00:00] [INF] Application directory: "/jellyfin/"
+[2019-12-05 23:35:17.186 +00:00] [INF] Setting cache path to /cache
+[2019-12-05 23:35:17.437 +00:00] [INF] Loading assemblies
+[2019-12-05 23:35:29.719 +00:00] [INF] Kestrel listening on all interfaces
+[2019-12-05 23:35:30.127 +00:00] [INF] Running startup tasks
+[2019-12-05 23:35:30.197 +00:00] [INF] Daily trigger for "Chapter image extraction" set to fire at 12/06/2019 02:00, which is 2:24:29.8028067 from now.
+[2019-12-05 23:35:32.886 +00:00] [INF] Found ffmpeg version "4.2.1"
+[2019-12-05 23:35:33.112 +00:00] [INF] Available "decoders": ["h264", "h264_cuvid", "hevc", "hevc_cuvid", "mpeg2video", "aac", "ac3", "mp3"]
+[2019-12-05 23:35:33.131 +00:00] [INF] Available "encoders": ["libx264", "h264_nvenc", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_nvenc", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "ac3", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2019-12-05 23:35:33.132 +00:00] [INF] FFmpeg: SetByArgument: "/usr/local/bin/ffmpeg"
+[2019-12-05 23:35:33.150 +00:00] [INF] ServerId: "a19bc94b54cf41428a3df5580a042877"
+[2019-12-05 23:35:33.244 +00:00] [INF] "StartupTrigger" fired for task: "Check for plugin updates"
+[2019-12-05 23:35:33.246 +00:00] [INF] Queueing task "PluginUpdateTask"
+[2019-12-05 23:35:33.255 +00:00] [INF] Executing "Check for plugin updates"
+[2019-12-05 23:35:33.595 +00:00] [INF] Executed all pre-startup entry points in 0:00:00.4287399
+[2019-12-05 23:35:33.595 +00:00] [INF] Core startup complete
+[2019-12-05 23:35:34.011 +00:00] [INF] Watching directory /anime/movies
+[2019-12-05 23:35:34.022 +00:00] [INF] Watching directory /anime/tv
+[2019-12-05 23:35:34.031 +00:00] [INF] Watching directory /media/tv
+[2019-12-05 23:35:34.032 +00:00] [INF] Registering publisher for "urn:schemas-upnp-org:device:MediaServer:1" on "172.18.0.6"
+[2019-12-05 23:35:34.054 +00:00] [INF] Watching directory /media/movies
+[2019-12-05 23:35:34.059 +00:00] [INF] Executed all post-startup entry points in 0:00:00.4633259
+[2019-12-05 23:35:40.005 +00:00] [INF] "Check for plugin updates" Completed after 0 minute(s) and 6 seconds
+[2019-12-05 23:35:40.075 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 23:35:45.539 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:35:47.137 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=9f0b1aca84b149fd9ff097ababcaf638&deviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1". UserAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0"
+[2019-12-05 23:36:11.178 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:36:12.654 +00:00] [INF] WS "http://192.168.1.200:8096/socket?api_key=9f0b1aca84b149fd9ff097ababcaf638&deviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1". UserAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0"
+[2019-12-05 23:36:13.375 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 23:36:13.377 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 23:36:13.379 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 23:36:13.572 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 23:36:13.631 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 23:36:30.827 +00:00] [INF] "IntervalTrigger" fired for task: "Scan media library"
+[2019-12-05 23:36:30.827 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-05 23:36:30.828 +00:00] [INF] Executing "Scan media library"
+[2019-12-05 23:36:30.857 +00:00] [INF] Stopping directory watching for path "/media/tv"
+[2019-12-05 23:36:30.858 +00:00] [INF] Stopping directory watching for path "/anime/tv"
+[2019-12-05 23:36:30.858 +00:00] [INF] Stopping directory watching for path "/media/movies"
+[2019-12-05 23:36:30.858 +00:00] [INF] Stopping directory watching for path "/anime/movies"
+[2019-12-05 23:36:30.863 +00:00] [INF] Validating media library
+[2019-12-05 23:36:31.472 +00:00] [INF] Creating image collage and saving to "/cache/temp/a79df69f17c142c59910cef84552619e.png"
+[2019-12-05 23:36:31.809 +00:00] [INF] Completed creation of image collage and saved to "/cache/temp/a79df69f17c142c59910cef84552619e.png"
+[2019-12-05 23:36:32.849 +00:00] [INF] Deleting item, Type: "Episode", Name: "To Modernity", Path: "/anime/tv/Dr. Stone/[HorribleSubs] Dr. Stone - 19 [720p].mkv", Id: 3462ded6-4dad-058e-f41d-ec47d8225fc4
+[2019-12-05 23:36:33.105 +00:00] [INF] Deleting item, Type: "Episode", Name: "The Age of Energy", Path: "/anime/tv/Dr. Stone/[HorribleSubs] Dr. Stone - 20 [720p].mkv", Id: cc4152f0-d270-1447-6c28-b4f68fd8b98e
+[2019-12-05 23:36:33.310 +00:00] [INF] Deleting item, Type: "Episode", Name: "Spartan Crafts Club", Path: "/anime/tv/Dr. Stone/[HorribleSubs] Dr. Stone - 21 [720p].mkv", Id: 4b979d61-6230-d373-608c-4d38d6e16b80
+[2019-12-05 23:36:33.510 +00:00] [INF] Deleting item, Type: "Episode", Name: "The Treasure", Path: "/anime/tv/Dr. Stone/[HorribleSubs] Dr. Stone - 22 [720p].mkv", Id: 02ece092-de1f-730d-5d8f-c91176940448
+[2019-12-05 23:36:34.155 +00:00] [INF] Deleting item, Type: "Season", Name: "Season 4", Path: "/anime/tv/Jojo's Bizarre Adventure/Season 4", Id: 9851b083-db29-d577-486b-024910c4fa7c
+[2019-12-05 23:36:45.127 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:07.8672116. "http://192.168.1.200:8096/Library/VirtualFolders?collectionType=music&refreshLibrary=true&name=Music"
+[2019-12-05 23:36:45.130 +00:00] [INF] Attempting to cancel Scheduled Task "Scan media library"
+[2019-12-05 23:36:45.132 +00:00] [INF] Queueing task "RefreshMediaLibraryTask"
+[2019-12-05 23:36:45.139 +00:00] [INF] "Scan media library" Cancelled after 0 minute(s) and 14 seconds
+[2019-12-05 23:36:45.145 +00:00] [INF] Watching directory /anime/movies
+[2019-12-05 23:36:45.151 +00:00] [INF] ExecuteQueuedTasks
+[2019-12-05 23:36:45.152 +00:00] [INF] Executing "Scan media library"
+[2019-12-05 23:36:45.195 +00:00] [INF] Stopping directory watching for path "/media/tv"
+[2019-12-05 23:36:45.195 +00:00] [INF] Stopping directory watching for path "/anime/tv"
+[2019-12-05 23:36:45.195 +00:00] [INF] Stopping directory watching for path "/media/movies"
+[2019-12-05 23:36:45.195 +00:00] [INF] Stopping directory watching for path "/anime/movies"
+[2019-12-05 23:36:45.195 +00:00] [INF] Stopping directory watching for path "/music"
+[2019-12-05 23:36:45.195 +00:00] [INF] Validating media library
+[2019-12-05 23:36:45.199 +00:00] [INF] Watching directory /anime/tv
+[2019-12-05 23:36:45.202 +00:00] [INF] Watching directory /music
+[2019-12-05 23:36:45.211 +00:00] [INF] Watching directory /media/tv
+[2019-12-05 23:36:45.230 +00:00] [INF] Watching directory /media/movies
+[2019-12-05 23:37:01.786 +00:00] [WRN] Unable to find linked item at path "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4"
+[2019-12-05 23:37:01.790 +00:00] [WRN] Unable to find linked item at path "/media/movies/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG/Ant.Man.2015.720p.HDRip.x264.AAC-ETRG.mp4"
+[2019-12-05 23:37:09.381 +00:00] [INF] Creating Season "Season Unknown" entry for "The Devil Is a Part-Timer!"
+[2019-12-05 23:37:18.702 +00:00] [INF] Removing virtual season "The Devil Is a Part-Timer!" null
+[2019-12-05 23:37:18.702 +00:00] [INF] Deleting item, Type: "Season", Name: "Season Unknown", Path: "", Id: 7dea2817-3413-b51a-fcf9-87807ea0bed3
+[2019-12-05 23:37:18.875 +00:00] [INF] Creating Season "Season 1" entry for "The Devil Is a Part-Timer!"
+[2019-12-05 23:37:20.692 +00:00] [INF] Removing virtual season "Dr. Stone" 1
+[2019-12-05 23:37:20.692 +00:00] [INF] Deleting item, Type: "Season", Name: "Season 1", Path: "", Id: 4d6e2b7e-72e5-ed7e-8e1e-78f2dd742edc
+[2019-12-05 23:37:21.380 +00:00] [INF] Creating virtual missing/unaired episode "Dr. Stone" 1x23
+[2019-12-05 23:37:22.210 +00:00] [INF] Creating virtual missing/unaired episode "Dr. Stone" 1x24
+[2019-12-05 23:57:19.830 +00:00] [INF] Getting image size for item "CollectionFolder" "/config/metadata/library/36/362dd10b1b0685f554a7add1e20a693d/poster.png"
+[2019-12-05 23:57:19.833 +00:00] [INF] Getting image size for item "CollectionFolder" "/config/metadata/library/36/362dd10b1b0685f554a7add1e20a693d/poster.png"
+[2019-12-05 23:57:20.262 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:57:20.287 +00:00] [ERR] Error processing request: "The operation was canceled."
+[2019-12-05 23:57:21.449 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.1992542. "http://192.168.1.200:8096/Items/8128d9be50d95f9c37e1b51beb5c686a/Images/Primary?maxHeight=303&maxWidth=202&tag=62af0116e7c481342655a88ba4c70e4b&quality=90"
+[2019-12-05 23:57:21.639 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.3896135. "http://192.168.1.200:8096/Items/60f0220a47466289ff616dc325df8e5a/Images/Primary?maxHeight=303&maxWidth=202&tag=ff48ce952f557d37f97e71e6e4518888&quality=90"
+[2019-12-05 23:57:21.861 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.6167438. "http://192.168.1.200:8096/Items/7483e0be8354794e9fcc0ea422a35cbd/Images/Primary?maxHeight=303&maxWidth=202&tag=a3addbb87c651db634921140f5aed74b&quality=90"
+[2019-12-05 23:57:22.036 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.6942246. "http://192.168.1.200:8096/Items/a4806187cbf1426cd4915f2892551b72/Images/Backdrop?maxWidth=304&tag=3a8cc7c3b19112ba064675a5029ae18e&quality=70"
+[2019-12-05 23:57:22.475 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:02.1275686. "http://192.168.1.200:8096/Items/592ff82fa25ca8b025085f12f9332e2a/Images/Backdrop?maxWidth=304&tag=7b8c1cdf20e51ee282c9ed113f528db1&quality=70"
+[2019-12-05 23:57:39.575 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.5101752. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items?ParentId=fcef0c1e9eba99503ffe7b27933804cb&Filters=IsNotFolder&Recursive=true&SortBy=SortName&MediaTypes=Audio%2CVideo&Limit=300&Fields=Chapters&ExcludeLocationTypes=Virtual&EnableTotalRecordCount=false&CollapseBoxSetItems=false"
+[2019-12-05 23:57:40.270 +00:00] [INF] User policy for "Ben". EnableAudioPlaybackTranscoding: True
+[2019-12-05 23:57:40.503 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.868126. "http://192.168.1.200:8096/Audio/32f773a58e0dc60e66274629d37d2f67/universal?UserId=7db8499d40e04626811639068e50bad1&DeviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1&MaxStreamingBitrate=140000000&Container=opus,mp3%7Cmp3,aac,m4a%7Caac,flac,webma,webm,wav,ogg&TranscodingContainer=ts&TranscodingProtocol=hls&AudioCodec=aac&PlaySessionId=1575588954230&StartTimeTicks=0&EnableRedirection=true&EnableRemoteMedia=false"
+[2019-12-05 23:57:40.870 +00:00] [INF] User policy for "Ben". EnableAudioPlaybackTranscoding: True
+[2019-12-05 23:57:41.671 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.5769944. "http://192.168.1.200:8096/Users/7db8499d40e04626811639068e50bad1/Items/32f773a58e0dc60e66274629d37d2f67"
+[2019-12-05 23:57:41.672 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.7411159. "http://192.168.1.200:8096/Sessions/Playing"
+[2019-12-05 23:57:42.222 +00:00] [WRN] HTTP Response 204 to "192.168.1.17". Time (slow): 0:00:00.5505506. "http://192.168.1.200:8096/Sessions/Playing/Progress"
+[2019-12-05 23:57:42.261 +00:00] [WRN] HTTP Response 206 to "192.168.1.17". Time (slow): 0:00:01.7446666. "http://192.168.1.200:8096/Audio/32f773a58e0dc60e66274629d37d2f67/universal?UserId=7db8499d40e04626811639068e50bad1&DeviceId=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6NzAuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC83MC4wfDE1NzUzMzEyOTQ2MDM1&MaxStreamingBitrate=140000000&Container=opus,mp3%7Cmp3,aac,m4a%7Caac,flac,webma,webm,wav,ogg&TranscodingContainer=ts&TranscodingProtocol=hls&AudioCodec=aac&PlaySessionId=1575588954230&StartTimeTicks=0&EnableRedirection=true&EnableRemoteMedia=false"
+[2019-12-05 23:57:56.496 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.4291616. "http://192.168.1.200:8096/Items/a4806187cbf1426cd4915f2892551b72/Images/Primary?maxHeight=325&maxWidth=217&tag=845526db15a1972faf695dd067bacc8d&quality=90"
+[2019-12-05 23:58:07.527 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.5498961. "http://192.168.1.200:8096/Items/559693d58ea7c101da4ef013f9a68dae/Images/Primary?maxWidth=160&tag=70b2eb3cd7b27699c7c85310e69c6e40&quality=90"
+[2019-12-05 23:58:07.745 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.7219734. "http://192.168.1.200:8096/Items/c55abac6f4476c6925e7c3353f6159a6/Images/Primary?maxHeight=325&maxWidth=217&tag=6bd12ca7b214bd22b33bedc5675777a5&quality=90"
+[2019-12-05 23:58:07.918 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.9421397. "http://192.168.1.200:8096/Items/2ceeaf7b61ce987db0f905ada6b88d23/Images/Primary?maxWidth=160&tag=3714f5373c9bce4f33dde59d5f8f7be9&quality=90"
+[2019-12-05 23:58:08.663 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.6403507. "http://192.168.1.200:8096/Items/677cdddc6c1a3cfe02e8ac642d657227/Images/Primary?maxHeight=325&maxWidth=217&tag=85feed4554b4cd56f4866742b715f999&quality=90"
+[2019-12-05 23:58:12.619 +00:00] [ERR] Error processing request: "A task was canceled."
+[2019-12-05 23:58:22.551 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.6637851. "http://192.168.1.200:8096/Items/149981a2969bd4c8c46e01c256dc4419/Images/Primary?width=500&tag=945c571cd501478eec0f7d64ae57cd83&quality=90"
+[2019-12-05 23:58:25.648 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.2763331. "http://192.168.1.200:8096/Items/25a75b1510b63f62623b6d2e17efd592/Images/Primary?width=500&tag=bb358e8f9c883368dd53cceb0d67ddb3&quality=90"
+[2019-12-05 23:58:26.125 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.6502647. "http://192.168.1.200:8096/Items/5b8c0ba7658fe5b99660cd057cad6fc0/Images/Primary?width=500&tag=438847c45655212ad1b4298194b3d7cd&quality=90"
+[2019-12-05 23:58:28.236 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:00.5054916. "http://192.168.1.200:8096/Items/ca8d49ad76470a44bda4b3a9762c582d/Images/Primary?width=500&tag=24f45e9d686a56b9213d80c476f7369a&quality=90"
+[2019-12-05 23:58:32.230 +00:00] [WRN] HTTP Response 200 to "192.168.1.17". Time (slow): 0:00:01.1128774. "http://192.168.1.200:8096/Items/2bb81b2cc77d57ad2b7888838759e3b8/Images/Primary?width=500&tag=fe5598bb551a676b1ecdc7c3f6377597&quality=90"
