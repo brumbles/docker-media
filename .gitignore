@@ -5,3 +5,7 @@ radarr
 ombi
 deluge
 jackett
+*.bak
+acme.json
+*.bac*
+ubooquity
