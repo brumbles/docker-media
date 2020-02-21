@@ -28,7 +28,7 @@ services:
       - web
     labels:
       - traefik.backend=jellyfin
-      - traefik.frontend.rule=Host:jellyfin.rumbles.online,watch.rumbles.online
+      - traefik.frontend.rule=Host:jellyfin.${DOMAIN},watch.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=8096
   sonarr:
@@ -55,7 +55,7 @@ services:
       - web
     labels:
       - traefik.backend=sonarr
-      - traefik.frontend.rule=Host:sonarr.rumbles.online
+      - traefik.frontend.rule=Host:sonarr.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=8989
   radarr:
@@ -82,7 +82,7 @@ services:
       - web
     labels:
       - traefik.backend=radarr
-      - traefik.frontend.rule=Host:radarr.rumbles.online
+      - traefik.frontend.rule=Host:radarr.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=7878
   lidarr:
@@ -108,7 +108,7 @@ services:
       - web
     labels:
       - traefik.backend=lidarr
-      - traefik.frontend.rule=Host:lidarr.rumbles.online
+      - traefik.frontend.rule=Host:lidarr.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=8686
        - traefik.port=7878
@@ -134,7 +134,7 @@ services:
       - web
     labels:
       - traefik.backend=ubooquity
-      - traefik.frontend.rule=Host:read.rumbles.online
+      - traefik.frontend.rule=Host:read.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=2202
   ombi:
@@ -157,7 +157,7 @@ services:
       - web
     labels:
       - traefik.backend=ombi
-      - traefik.frontend.rule=Host:request.rumbles.online
+      - traefik.frontend.rule=Host:request.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=3579
     depends_on:
@@ -177,8 +177,8 @@ services:
       - TZ=Europe/London
     volumes:
       - ${DLDIR}:/downloads
-      - /mnt/usbstorage/TV:/media/tv
-      - /mnt/usbstorage/Movies:/media/movies
+      - ${TVDIR}:/media/tv
+      - ${MOVIESDIR}:/media/movies
       - ./deluge:/config
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
@@ -187,7 +187,7 @@ services:
       - web
     labels:
       - traefik.backend=deluge
-      - traefik.frontend.rule=Host:deluge.rumbles.online
+      - traefik.frontend.rule=Host:deluge.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=8112
   jackett:
@@ -222,6 +222,6 @@ services:
       - web
     labels:
       - traefik.backend=heimdall
-      - traefik.frontend.rule=Host:dash.rumbles.online
+      - traefik.frontend.rule=Host:dash.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=8888
