@@ -9,7 +9,7 @@ networks:
 services:
   jellyfin:
     container_name: jellyfin
-    image: jellyfin/jellyfin
+    image: linuxserver/jellyfin
     restart: unless-stopped
     ports:
       - 8096:8096
@@ -21,8 +21,10 @@ services:
       - /mnt/usbstorage/Anime/Movies:/anime/movies
       - /mnt/usbstorage/Anime/TV:/anime/tv
       - /mnt/usbstorage/Music:/music
+      - /mnt/usbstorage/Audibooks:/audiobooks
+      - /mnt/usbstorage/Books:/books
+      - /mnt/usbstorage/Comics:/comics
       - /etc/localtime:/etc/localtime:ro
-    user: "1000:1000"
     networks:
       - internal
       - web
@@ -128,6 +130,7 @@ services:
       - /mnt/usbstorage/Books:/books  
       - /mnt/usbstorage/Comics:/comics
       - /mnt/usbstorage/Files:/files
+      - /mnt/usbstorage/Audiobooks:/audiobooks
       - /etc/localtime:/etc/localtime:ro
     networks:
       - internal
@@ -225,3 +228,25 @@ services:
       - traefik.frontend.rule=Host:dash.${DOMAIN}
       - traefik.docker.network=web
       - traefik.port=8888
+  sabnzbd:
+    image: linuxserver/sabnzbd
+    container_name: sabnzbd
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=Europe/London
+    volumes:
+      - ./sabnzbd:/config
+      - ${DLDIR}:/downloads
+    ports:
+      - 8080:8080
+      - 9090:9090
+    restart: unless-stopped
+    labels:
+      - traefik.backend=sabnzbd
+      - traefik.frontend.rule=Host:sab.${DOMAIN}
+      - traefik.docker.network=web
+      - traefik.port=8888
+    networks:
+      - internal
+      - web
