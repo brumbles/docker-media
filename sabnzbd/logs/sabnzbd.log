@@ -28591,3 +28591,997 @@
 2020-07-15 21:21:25,310::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
 2020-07-15 21:21:25,311::INFO::[nzbqueue:260] Saving queue
 2020-07-15 21:21:25,513::INFO::[postproc:94] Saving postproc queue
+2020-07-15 21:45:12,963::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-15 21:45:12,963::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-15 21:45:12,964::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-15 21:45:12,964::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-15 21:45:12,964::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-15 21:45:12,964::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-15 21:45:12,964::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-15 21:45:12,964::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-15 21:45:12,965::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-15 21:45:12,998::INFO::[postproc:100] Loading postproc queue
+2020-07-15 21:45:13,002::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-15 21:45:13,012::INFO::[__init__:349] All processes started
+2020-07-15 21:45:13,012::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-15 21:45:13,013::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-15 21:45:13,160::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-15 21:45:13,177::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-15 21:45:13,177::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-15 21:45:13,177::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-15 21:45:13,177::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-15 21:45:13,177::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-15 21:45:13,177::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-15 21:45:13,178::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-15 21:45:13,178::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-15 21:45:13,178::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-15 21:45:13,182::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-15 21:45:13,182::INFO::[_cplogging:219] [15/Jul/2020:21:45:13] ENGINE Bus STARTING
+2020-07-15 21:45:13,301::INFO::[_cplogging:219] [15/Jul/2020:21:45:13] ENGINE Serving on http://0.0.0.0:8080
+2020-07-15 21:45:13,301::INFO::[_cplogging:219] [15/Jul/2020:21:45:13] ENGINE Bus STARTED
+2020-07-15 21:45:13,301::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-15 21:45:13,308::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-15 21:45:13,308::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-15 21:45:13,309::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-15 21:45:13,317::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-15 22:00:40,224::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2020-07-15 22:00:40,224::INFO::[nzbqueue:260] Saving queue
+2020-07-15 22:00:40,233::INFO::[postproc:94] Saving postproc queue
+2020-07-15 22:01:07,750::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-15 22:01:07,750::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-15 22:01:07,750::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-15 22:01:07,751::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-15 22:01:07,751::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-15 22:01:07,751::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-15 22:01:07,751::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-15 22:01:07,751::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-15 22:01:07,752::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-15 22:01:07,755::INFO::[postproc:100] Loading postproc queue
+2020-07-15 22:01:07,762::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-15 22:01:07,762::INFO::[__init__:349] All processes started
+2020-07-15 22:01:07,762::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-15 22:01:07,762::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-15 22:01:07,765::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-15 22:01:07,779::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-15 22:01:07,779::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-15 22:01:07,779::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-15 22:01:07,779::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-15 22:01:07,779::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-15 22:01:07,779::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-15 22:01:07,780::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-15 22:01:07,780::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-15 22:01:07,780::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-15 22:01:07,781::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-15 22:01:07,781::INFO::[_cplogging:219] [15/Jul/2020:22:01:07] ENGINE Bus STARTING
+2020-07-15 22:01:07,890::INFO::[_cplogging:219] [15/Jul/2020:22:01:07] ENGINE Serving on http://0.0.0.0:8080
+2020-07-15 22:01:07,891::INFO::[_cplogging:219] [15/Jul/2020:22:01:07] ENGINE Bus STARTED
+2020-07-15 22:01:07,891::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-15 22:01:07,895::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-15 22:01:07,895::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-15 22:01:07,895::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-15 22:01:07,899::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-17 19:15:27,598::INFO::[__init__:681] Adding [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p].nzb
+2020-07-17 19:15:27,704::INFO::[misc:999] Creating directories: /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:15:27,711::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.par2 - SABnzbd_nzf_0DAZ33 added to queue
+2020-07-17 19:15:27,712::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part01.rar - SABnzbd_nzf_Ni1qy0 added to queue
+2020-07-17 19:15:27,713::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part02.rar - SABnzbd_nzf_17_A6Z added to queue
+2020-07-17 19:15:27,714::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part03.rar - SABnzbd_nzf_dWSN0V added to queue
+2020-07-17 19:15:27,715::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part04.rar - SABnzbd_nzf_egcQiR added to queue
+2020-07-17 19:15:27,716::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part05.rar - SABnzbd_nzf_tq5AbD added to queue
+2020-07-17 19:15:27,717::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part06.rar - SABnzbd_nzf_CN4jpO added to queue
+2020-07-17 19:15:27,718::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part07.rar - SABnzbd_nzf_gMl3Z1 added to queue
+2020-07-17 19:15:27,719::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part08.rar - SABnzbd_nzf_tyXqYd added to queue
+2020-07-17 19:15:27,720::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part09.rar - SABnzbd_nzf_kZpADu added to queue
+2020-07-17 19:15:27,721::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part10.rar - SABnzbd_nzf_lAg44B added to queue
+2020-07-17 19:15:27,722::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part11.rar - SABnzbd_nzf_Rdt9Q5 added to queue
+2020-07-17 19:15:27,724::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part12.rar - SABnzbd_nzf__Zw3hG added to queue
+2020-07-17 19:15:27,725::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part13.rar - SABnzbd_nzf_MfV4G2 added to queue
+2020-07-17 19:15:27,726::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part14.rar - SABnzbd_nzf_yyQzuB added to queue
+2020-07-17 19:15:27,727::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part15.rar - SABnzbd_nzf_PgY4SI added to queue
+2020-07-17 19:15:27,728::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part16.rar - SABnzbd_nzf_8ngQoY added to queue
+2020-07-17 19:15:27,729::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part17.rar - SABnzbd_nzf_UqO1O5 added to queue
+2020-07-17 19:15:27,730::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part18.rar - SABnzbd_nzf_fYDBh3 added to queue
+2020-07-17 19:15:27,731::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part19.rar - SABnzbd_nzf_ZOb7tV added to queue
+2020-07-17 19:15:27,732::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part20.rar - SABnzbd_nzf_9huGo6 added to queue
+2020-07-17 19:15:27,733::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part21.rar - SABnzbd_nzf_z_PyoD added to queue
+2020-07-17 19:15:27,734::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part22.rar - SABnzbd_nzf_5wZrTA added to queue
+2020-07-17 19:15:27,736::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part23.rar - SABnzbd_nzf_Ash_zT added to queue
+2020-07-17 19:15:27,737::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part24.rar - SABnzbd_nzf_C3EQii added to queue
+2020-07-17 19:15:27,738::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part25.rar - SABnzbd_nzf_5V7tip added to queue
+2020-07-17 19:15:27,739::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part26.rar - SABnzbd_nzf_Usa353 added to queue
+2020-07-17 19:15:27,740::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part27.rar - SABnzbd_nzf_x1jSJE added to queue
+2020-07-17 19:15:27,741::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part28.rar - SABnzbd_nzf_Md3ATi added to queue
+2020-07-17 19:15:27,742::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part29.rar - SABnzbd_nzf_loTljv added to queue
+2020-07-17 19:15:27,744::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part30.rar - SABnzbd_nzf_XVnndy added to queue
+2020-07-17 19:15:27,745::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part31.rar - SABnzbd_nzf_DQFALG added to queue
+2020-07-17 19:15:27,746::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part32.rar - SABnzbd_nzf_G3n6Qy added to queue
+2020-07-17 19:15:27,747::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part33.rar - SABnzbd_nzf_jnd04H added to queue
+2020-07-17 19:15:27,748::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part34.rar - SABnzbd_nzf_ISvfQm added to queue
+2020-07-17 19:15:27,749::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part35.rar - SABnzbd_nzf_vac8Ry added to queue
+2020-07-17 19:15:27,750::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part36.rar - SABnzbd_nzf_TOOJwR added to queue
+2020-07-17 19:15:27,751::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part37.rar - SABnzbd_nzf_bXvTVs added to queue
+2020-07-17 19:15:27,752::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part38.rar - SABnzbd_nzf_0asbaF added to queue
+2020-07-17 19:15:28,104::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part39.rar - SABnzbd_nzf_AmI3Es added to queue
+2020-07-17 19:15:28,108::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part40.rar - SABnzbd_nzf_B886ZA added to queue
+2020-07-17 19:15:28,111::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part41.rar - SABnzbd_nzf_smubDf added to queue
+2020-07-17 19:15:28,113::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part42.rar - SABnzbd_nzf_nY7MXj added to queue
+2020-07-17 19:15:28,114::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part43.rar - SABnzbd_nzf_8cfP4V added to queue
+2020-07-17 19:15:28,115::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part44.rar - SABnzbd_nzf_DdGpF6 added to queue
+2020-07-17 19:15:28,116::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part45.rar - SABnzbd_nzf_pGsUYa added to queue
+2020-07-17 19:15:28,118::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part46.rar - SABnzbd_nzf_uqsj5R added to queue
+2020-07-17 19:15:28,119::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part47.rar - SABnzbd_nzf_h_6t3S added to queue
+2020-07-17 19:15:28,120::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.part48.rar - SABnzbd_nzf_3Ox_ld added to queue
+2020-07-17 19:15:28,121::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol00+01.par2 - SABnzbd_nzf_Kaeh5L added to queue
+2020-07-17 19:15:28,121::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol01+02.par2 - SABnzbd_nzf_T8So6j added to queue
+2020-07-17 19:15:28,123::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol03+04.par2 - SABnzbd_nzf_A4bEpK added to queue
+2020-07-17 19:15:28,124::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol07+08.par2 - SABnzbd_nzf_XxMrbT added to queue
+2020-07-17 19:15:28,125::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol15+16.par2 - SABnzbd_nzf_CuvXUM added to queue
+2020-07-17 19:15:28,127::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol31+32.par2 - SABnzbd_nzf_bGoLVE added to queue
+2020-07-17 19:15:28,128::INFO::[nzbstuff:530] File 0688795771ee45c593c50010344a3de0.vol63+32.par2 - SABnzbd_nzf_jel5BN added to queue
+2020-07-17 19:15:28,128::INFO::[__init__:624] Backing up /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/__ADMIN__/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p].nzb.gz
+2020-07-17 19:15:28,136::INFO::[nzbqueue:260] Saving queue
+2020-07-17 19:15:29,142::INFO::[downloader:490] 1@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,288::INFO::[happyeyeballs:138] Quickest IP address for news.eweka.nl (port 563, ssl 1, preferipv6 True) is 81.171.92.233
+2020-07-17 19:15:29,292::INFO::[downloader:490] 2@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,294::INFO::[downloader:490] 3@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,296::INFO::[downloader:490] 4@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,298::INFO::[downloader:490] 5@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,300::INFO::[downloader:490] 6@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,301::INFO::[downloader:490] 7@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,302::INFO::[downloader:490] 8@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,302::INFO::[downloader:490] 9@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,303::INFO::[downloader:490] 10@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,304::INFO::[downloader:490] 11@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,305::INFO::[downloader:490] 12@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,306::INFO::[downloader:490] 13@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,306::INFO::[downloader:490] 14@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,307::INFO::[downloader:490] 15@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,308::INFO::[downloader:490] 16@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,309::INFO::[downloader:490] 17@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,309::INFO::[downloader:490] 18@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,310::INFO::[downloader:490] 19@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,311::INFO::[downloader:490] 20@news.eweka.nl: Initiating connection
+2020-07-17 19:15:29,374::INFO::[newswrapper:121] 1@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,379::INFO::[newswrapper:121] 2@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,381::INFO::[newswrapper:121] 3@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,381::INFO::[newswrapper:121] 4@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,383::INFO::[newswrapper:121] 6@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,384::INFO::[newswrapper:121] 7@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,385::INFO::[newswrapper:121] 5@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,386::INFO::[newswrapper:121] 8@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,388::INFO::[newswrapper:121] 9@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,390::INFO::[newswrapper:121] 11@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,390::INFO::[newswrapper:121] 12@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,391::INFO::[newswrapper:121] 10@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,392::INFO::[newswrapper:121] 14@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,394::INFO::[newswrapper:121] 13@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,395::INFO::[newswrapper:121] 18@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,396::INFO::[newswrapper:121] 19@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,397::INFO::[newswrapper:121] 16@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,398::INFO::[newswrapper:121] 15@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,398::INFO::[newswrapper:121] 20@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:29,399::INFO::[newswrapper:121] 17@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-17 19:15:30,367::INFO::[downloader:704] Connecting 18@news.eweka.nl finished
+2020-07-17 19:15:30,368::INFO::[downloader:704] Connecting 15@news.eweka.nl finished
+2020-07-17 19:15:30,368::INFO::[downloader:704] Connecting 19@news.eweka.nl finished
+2020-07-17 19:15:30,369::INFO::[downloader:704] Connecting 2@news.eweka.nl finished
+2020-07-17 19:15:30,369::INFO::[downloader:704] Connecting 8@news.eweka.nl finished
+2020-07-17 19:15:30,370::INFO::[downloader:704] Connecting 14@news.eweka.nl finished
+2020-07-17 19:15:30,371::INFO::[downloader:704] Connecting 4@news.eweka.nl finished
+2020-07-17 19:15:30,405::INFO::[downloader:704] Connecting 16@news.eweka.nl finished
+2020-07-17 19:15:30,406::INFO::[downloader:704] Connecting 20@news.eweka.nl finished
+2020-07-17 19:15:30,407::INFO::[downloader:704] Connecting 10@news.eweka.nl finished
+2020-07-17 19:15:30,408::INFO::[downloader:704] Connecting 13@news.eweka.nl finished
+2020-07-17 19:15:30,409::INFO::[downloader:704] Connecting 17@news.eweka.nl finished
+2020-07-17 19:15:30,410::INFO::[downloader:704] Connecting 3@news.eweka.nl finished
+2020-07-17 19:15:30,410::INFO::[downloader:704] Connecting 6@news.eweka.nl finished
+2020-07-17 19:15:30,411::INFO::[downloader:704] Connecting 11@news.eweka.nl finished
+2020-07-17 19:15:30,411::INFO::[downloader:704] Connecting 12@news.eweka.nl finished
+2020-07-17 19:15:30,412::INFO::[downloader:704] Connecting 1@news.eweka.nl finished
+2020-07-17 19:15:30,412::INFO::[downloader:704] Connecting 5@news.eweka.nl finished
+2020-07-17 19:15:30,413::INFO::[downloader:704] Connecting 7@news.eweka.nl finished
+2020-07-17 19:15:30,413::INFO::[downloader:704] Connecting 9@news.eweka.nl finished
+2020-07-17 19:15:30,823::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.par2 yenc
+2020-07-17 19:15:30,830::INFO::[nzbstuff:1693] Checking all filenames for [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:15:30,830::INFO::[nzbstuff:1696] Re-sorting [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p] after getting filename information
+2020-07-17 19:15:37,057::INFO::[nzbstuff:1693] Checking all filenames for [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:15:37,057::INFO::[nzbstuff:1696] Re-sorting [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p] after getting filename information
+2020-07-17 19:15:39,223::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part01.rar yenc
+2020-07-17 19:15:39,373::INFO::[misc:999] Creating directories: /downloads/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:15:39,381::INFO::[directunpacker:383] DirectUnpacked volume 1 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:42,901::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part03.rar yenc
+2020-07-17 19:15:44,275::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part02.rar yenc
+2020-07-17 19:15:44,528::INFO::[directunpacker:272] DirectUnpacked volume 2 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:44,663::INFO::[directunpacker:272] DirectUnpacked volume 3 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:44,846::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part04.rar yenc
+2020-07-17 19:15:45,101::INFO::[directunpacker:272] DirectUnpacked volume 4 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:46,692::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part05.rar yenc
+2020-07-17 19:15:46,939::INFO::[directunpacker:272] DirectUnpacked volume 5 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:48,931::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part06.rar yenc
+2020-07-17 19:15:49,180::INFO::[directunpacker:272] DirectUnpacked volume 6 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:52,182::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part07.rar yenc
+2020-07-17 19:15:52,439::INFO::[directunpacker:272] DirectUnpacked volume 7 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:52,495::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part08.rar yenc
+2020-07-17 19:15:52,747::INFO::[directunpacker:272] DirectUnpacked volume 8 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:55,317::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part09.rar yenc
+2020-07-17 19:15:55,565::INFO::[directunpacker:272] DirectUnpacked volume 9 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:56,691::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part10.rar yenc
+2020-07-17 19:15:56,930::INFO::[directunpacker:272] DirectUnpacked volume 10 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:15:59,232::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part11.rar yenc
+2020-07-17 19:15:59,068::INFO::[directunpacker:272] DirectUnpacked volume 11 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:00,396::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part12.rar yenc
+2020-07-17 19:16:00,644::INFO::[directunpacker:272] DirectUnpacked volume 12 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:03,139::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part13.rar yenc
+2020-07-17 19:16:03,388::INFO::[directunpacker:272] DirectUnpacked volume 13 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:04,943::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part14.rar yenc
+2020-07-17 19:16:05,196::INFO::[directunpacker:272] DirectUnpacked volume 14 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:06,500::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part15.rar yenc
+2020-07-17 19:16:06,778::INFO::[directunpacker:272] DirectUnpacked volume 15 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:08,973::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part16.rar yenc
+2020-07-17 19:16:09,222::INFO::[directunpacker:272] DirectUnpacked volume 16 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:11,451::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part17.rar yenc
+2020-07-17 19:16:11,693::INFO::[directunpacker:272] DirectUnpacked volume 17 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:12,907::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part18.rar yenc
+2020-07-17 19:16:13,157::INFO::[directunpacker:272] DirectUnpacked volume 18 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:15,104::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part19.rar yenc
+2020-07-17 19:16:15,356::INFO::[directunpacker:272] DirectUnpacked volume 19 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:17,499::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part20.rar yenc
+2020-07-17 19:16:17,807::INFO::[directunpacker:272] DirectUnpacked volume 20 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:18,518::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part21.rar yenc
+2020-07-17 19:16:18,772::INFO::[directunpacker:272] DirectUnpacked volume 21 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:20,134::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part22.rar yenc
+2020-07-17 19:16:20,389::INFO::[directunpacker:272] DirectUnpacked volume 22 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:22,011::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part23.rar yenc
+2020-07-17 19:16:22,260::INFO::[directunpacker:272] DirectUnpacked volume 23 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:24,729::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part24.rar yenc
+2020-07-17 19:16:24,983::INFO::[directunpacker:272] DirectUnpacked volume 24 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:26,580::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part25.rar yenc
+2020-07-17 19:16:26,836::INFO::[directunpacker:272] DirectUnpacked volume 25 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:28,922::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part26.rar yenc
+2020-07-17 19:16:29,176::INFO::[directunpacker:272] DirectUnpacked volume 26 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:30,275::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part27.rar yenc
+2020-07-17 19:16:30,528::INFO::[directunpacker:272] DirectUnpacked volume 27 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:32,995::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part28.rar yenc
+2020-07-17 19:16:33,250::INFO::[directunpacker:272] DirectUnpacked volume 28 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:35,789::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part29.rar yenc
+2020-07-17 19:16:36,053::INFO::[directunpacker:272] DirectUnpacked volume 29 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:37,282::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part30.rar yenc
+2020-07-17 19:16:37,538::INFO::[directunpacker:272] DirectUnpacked volume 30 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:39,312::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part31.rar yenc
+2020-07-17 19:16:39,566::INFO::[directunpacker:272] DirectUnpacked volume 31 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:41,340::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part32.rar yenc
+2020-07-17 19:16:41,595::INFO::[directunpacker:272] DirectUnpacked volume 32 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:43,855::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part33.rar yenc
+2020-07-17 19:16:44,112::INFO::[directunpacker:272] DirectUnpacked volume 33 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:45,589::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part34.rar yenc
+2020-07-17 19:16:45,848::INFO::[directunpacker:272] DirectUnpacked volume 34 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:48,124::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part35.rar yenc
+2020-07-17 19:16:48,394::INFO::[directunpacker:272] DirectUnpacked volume 35 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:49,404::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part36.rar yenc
+2020-07-17 19:16:49,697::INFO::[directunpacker:272] DirectUnpacked volume 36 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:51,518::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part37.rar yenc
+2020-07-17 19:16:51,786::INFO::[directunpacker:272] DirectUnpacked volume 37 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:53,080::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part38.rar yenc
+2020-07-17 19:16:53,340::INFO::[directunpacker:272] DirectUnpacked volume 38 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:56,336::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part39.rar yenc
+2020-07-17 19:16:56,588::INFO::[directunpacker:272] DirectUnpacked volume 39 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:57,818::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part40.rar yenc
+2020-07-17 19:16:58,088::INFO::[directunpacker:272] DirectUnpacked volume 40 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:16:59,207::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part41.rar yenc
+2020-07-17 19:16:59,471::INFO::[directunpacker:272] DirectUnpacked volume 41 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:01,749::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part42.rar yenc
+2020-07-17 19:17:02,011::INFO::[directunpacker:272] DirectUnpacked volume 42 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:04,003::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part43.rar yenc
+2020-07-17 19:17:04,251::INFO::[directunpacker:272] DirectUnpacked volume 43 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:05,308::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part44.rar yenc
+2020-07-17 19:17:05,553::INFO::[directunpacker:272] DirectUnpacked volume 44 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:07,430::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part45.rar yenc
+2020-07-17 19:17:07,685::INFO::[directunpacker:272] DirectUnpacked volume 45 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:09,760::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part46.rar yenc
+2020-07-17 19:17:10,062::INFO::[directunpacker:272] DirectUnpacked volume 46 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:11,212::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part47.rar yenc
+2020-07-17 19:17:11,464::INFO::[directunpacker:272] DirectUnpacked volume 47 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:11,936::INFO::[nzbqueue:784] [N/A] Ending job [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:11,939::INFO::[assembler:91] Decoding /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.part48.rar yenc
+2020-07-17 19:17:12,036::INFO::[nzbqueue:418] [N/A] Removed job [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:12,036::INFO::[nzbqueue:260] Saving queue
+2020-07-17 19:17:12,036::INFO::[postproc:94] Saving postproc queue
+2020-07-17 19:17:12,060::INFO::[postproc:340] Starting Post-Processing on [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p] => Repair:True, Unpack:True, Delete:True, Script:None, Cat:tv
+2020-07-17 19:17:12,060::INFO::[postproc:660] Starting verification and repair of [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:12,061::INFO::[__init__:920] [N/A] /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/__ADMIN__/__verified__ missing
+2020-07-17 19:17:12,061::INFO::[postproc:675] Running verification and repair on set 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:12,062::INFO::[newsunpack:1107] Quick-check for 0688795771ee45c593c50010344a3de0 is OK, skipping repair
+2020-07-17 19:17:12,065::INFO::[postproc:716] Verification and repair finished for [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:12,073::INFO::[postproc:381] Running unpack_magic on [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:12,133::INFO::[newsunpack:256] Unrar starting on /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:12,135::INFO::[directunpacker:272] DirectUnpacked volume 48 for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:12,177::INFO::[directunpacker:212] DirectUnpack completed for 0688795771ee45c593c50010344a3de0
+2020-07-17 19:17:12,940::INFO::[downloader:783] Thread 1@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,042::INFO::[downloader:783] Thread 16@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,143::INFO::[downloader:783] Thread 19@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,244::INFO::[downloader:783] Thread 20@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,346::INFO::[downloader:783] Thread 15@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,447::INFO::[downloader:783] Thread 2@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,548::INFO::[downloader:783] Thread 14@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,650::INFO::[downloader:783] Thread 9@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,751::INFO::[downloader:783] Thread 3@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,853::INFO::[downloader:783] Thread 8@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:13,954::INFO::[downloader:783] Thread 18@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,055::INFO::[downloader:783] Thread 12@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,134::INFO::[newsunpack:510] Set 0688795771ee45c593c50010344a3de0 completed by DirectUnpack
+2020-07-17 19:17:14,156::INFO::[downloader:783] Thread 4@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,201::INFO::[newsunpack:260] Unrar finished on /downloads/incomplete/[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:14,208::INFO::[postproc:383] Unpacked files [u'/downloads/_UNPACK_[HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]/0688795771ee45c593c50010344a3de0.mkv']
+2020-07-17 19:17:14,208::INFO::[postproc:388] Finished unpack_magic on [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p]
+2020-07-17 19:17:14,211::INFO::[postproc:558] Cleaning up [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p] (keep_basic=False)
+2020-07-17 19:17:14,211::INFO::[nzbstuff:1759] [N/A] Purging data for job [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p] (keep_basic=False, del_files=False)
+2020-07-17 19:17:14,257::INFO::[downloader:783] Thread 7@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,358::INFO::[downloader:783] Thread 13@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,407::INFO::[database:272] Added job [HorribleSubs].Shokugeki.no.Soma.S5-03.[720p] to history
+2020-07-17 19:17:14,408::INFO::[postproc:94] Saving postproc queue
+2020-07-17 19:17:14,408::INFO::[downloader:301] Post-processing finished, resuming download
+2020-07-17 19:17:14,460::INFO::[downloader:783] Thread 5@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,561::INFO::[downloader:783] Thread 10@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,663::INFO::[downloader:783] Thread 6@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,764::INFO::[downloader:783] Thread 11@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:14,865::INFO::[downloader:783] Thread 17@news.eweka.nl: forcing disconnect
+2020-07-17 19:17:18,409::INFO::[nzbqueue:260] Saving queue
+2020-07-17 19:17:18,423::INFO::[postproc:94] Saving postproc queue
+2020-07-17 19:18:27,228::INFO::[database:239] [N/A] Removing job SABnzbd_nzo_3aZkHk from history
+2020-07-18 13:33:12,906::INFO::[__init__:681] Adding Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated.nzb
+2020-07-18 13:33:12,907::INFO::[misc:999] Creating directories: /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:33:13,267::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.par2 - SABnzbd_nzf_iPfSJe added to queue
+2020-07-18 13:33:13,270::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part01.rar - SABnzbd_nzf_2fq5pP added to queue
+2020-07-18 13:33:13,273::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part02.rar - SABnzbd_nzf_dzZy4U added to queue
+2020-07-18 13:33:13,275::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part03.rar - SABnzbd_nzf_6r90fL added to queue
+2020-07-18 13:33:13,276::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part04.rar - SABnzbd_nzf_jpVWJe added to queue
+2020-07-18 13:33:13,278::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part05.rar - SABnzbd_nzf_hDkr2a added to queue
+2020-07-18 13:33:13,279::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part06.rar - SABnzbd_nzf_A7D2lb added to queue
+2020-07-18 13:33:13,281::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part07.rar - SABnzbd_nzf_PwubHU added to queue
+2020-07-18 13:33:13,282::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part08.rar - SABnzbd_nzf_lf1PiV added to queue
+2020-07-18 13:33:13,283::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part09.rar - SABnzbd_nzf_Q_P_2Y added to queue
+2020-07-18 13:33:13,285::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part10.rar - SABnzbd_nzf_ANsgjK added to queue
+2020-07-18 13:33:13,286::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part11.rar - SABnzbd_nzf_HnTmyb added to queue
+2020-07-18 13:33:13,287::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part12.rar - SABnzbd_nzf_Ou3dr8 added to queue
+2020-07-18 13:33:13,289::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part13.rar - SABnzbd_nzf_0xL3_N added to queue
+2020-07-18 13:33:13,290::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part14.rar - SABnzbd_nzf_GyEaVb added to queue
+2020-07-18 13:33:13,292::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part15.rar - SABnzbd_nzf_CkYsnB added to queue
+2020-07-18 13:33:13,293::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part16.rar - SABnzbd_nzf_DHewEZ added to queue
+2020-07-18 13:33:13,294::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part17.rar - SABnzbd_nzf_Fi5rck added to queue
+2020-07-18 13:33:13,296::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part18.rar - SABnzbd_nzf_k9qVN8 added to queue
+2020-07-18 13:33:13,297::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part19.rar - SABnzbd_nzf_WlOHsa added to queue
+2020-07-18 13:33:13,298::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part20.rar - SABnzbd_nzf_NcYpVz added to queue
+2020-07-18 13:33:13,299::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part21.rar - SABnzbd_nzf_PW5sVm added to queue
+2020-07-18 13:33:13,300::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part22.rar - SABnzbd_nzf_PWTMVd added to queue
+2020-07-18 13:33:13,301::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part23.rar - SABnzbd_nzf_Id37Gj added to queue
+2020-07-18 13:33:13,303::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part24.rar - SABnzbd_nzf_5JuVY4 added to queue
+2020-07-18 13:33:13,304::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part25.rar - SABnzbd_nzf_EShwCu added to queue
+2020-07-18 13:33:13,305::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part26.rar - SABnzbd_nzf_QPELd7 added to queue
+2020-07-18 13:33:13,306::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part27.rar - SABnzbd_nzf_CinRyU added to queue
+2020-07-18 13:33:13,307::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part28.rar - SABnzbd_nzf_6k0vZN added to queue
+2020-07-18 13:33:13,309::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part29.rar - SABnzbd_nzf_XaE6Vj added to queue
+2020-07-18 13:33:13,310::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part30.rar - SABnzbd_nzf_QWqyRk added to queue
+2020-07-18 13:33:13,311::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part31.rar - SABnzbd_nzf_RSGvqN added to queue
+2020-07-18 13:33:13,312::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part32.rar - SABnzbd_nzf_9Yx_5X added to queue
+2020-07-18 13:33:13,334::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part33.rar - SABnzbd_nzf_OVzMDY added to queue
+2020-07-18 13:33:13,336::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part34.rar - SABnzbd_nzf_qqbRHe added to queue
+2020-07-18 13:33:13,338::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part35.rar - SABnzbd_nzf_YFhdWr added to queue
+2020-07-18 13:33:13,339::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part36.rar - SABnzbd_nzf_k0OhJ5 added to queue
+2020-07-18 13:33:13,341::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part37.rar - SABnzbd_nzf_jgwUig added to queue
+2020-07-18 13:33:13,343::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part38.rar - SABnzbd_nzf_H6rj_j added to queue
+2020-07-18 13:33:13,345::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part39.rar - SABnzbd_nzf_UWVqnX added to queue
+2020-07-18 13:33:13,347::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part40.rar - SABnzbd_nzf_vYPr_e added to queue
+2020-07-18 13:33:13,348::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part41.rar - SABnzbd_nzf_4lU1jS added to queue
+2020-07-18 13:33:13,350::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part42.rar - SABnzbd_nzf_RWaR2U added to queue
+2020-07-18 13:33:13,352::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part43.rar - SABnzbd_nzf_FZTUn7 added to queue
+2020-07-18 13:33:13,353::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part44.rar - SABnzbd_nzf_vmeE0M added to queue
+2020-07-18 13:33:13,355::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part45.rar - SABnzbd_nzf_1l5vxd added to queue
+2020-07-18 13:33:13,356::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part46.rar - SABnzbd_nzf_MQ4XLF added to queue
+2020-07-18 13:33:13,357::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part47.rar - SABnzbd_nzf_6HLnxh added to queue
+2020-07-18 13:33:13,359::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part48.rar - SABnzbd_nzf_F2U4Mv added to queue
+2020-07-18 13:33:13,360::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part49.rar - SABnzbd_nzf_yuhHxx added to queue
+2020-07-18 13:33:13,362::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part50.rar - SABnzbd_nzf_ComeZK added to queue
+2020-07-18 13:33:13,363::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part51.rar - SABnzbd_nzf_ccJcXY added to queue
+2020-07-18 13:33:13,364::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part52.rar - SABnzbd_nzf_PFf8iB added to queue
+2020-07-18 13:33:13,365::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part53.rar - SABnzbd_nzf_k2CJTL added to queue
+2020-07-18 13:33:13,366::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part54.rar - SABnzbd_nzf_8mcWo5 added to queue
+2020-07-18 13:33:13,368::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part55.rar - SABnzbd_nzf_gJTnYe added to queue
+2020-07-18 13:33:13,369::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part56.rar - SABnzbd_nzf_hE_kBz added to queue
+2020-07-18 13:33:13,370::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part57.rar - SABnzbd_nzf_cMrFp0 added to queue
+2020-07-18 13:33:13,371::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part58.rar - SABnzbd_nzf_0VHTqI added to queue
+2020-07-18 13:33:13,373::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part59.rar - SABnzbd_nzf_KVcGje added to queue
+2020-07-18 13:33:13,374::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part60.rar - SABnzbd_nzf_avo5N7 added to queue
+2020-07-18 13:33:13,375::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part61.rar - SABnzbd_nzf_AE1_yp added to queue
+2020-07-18 13:33:13,377::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part62.rar - SABnzbd_nzf_hVdmBn added to queue
+2020-07-18 13:33:13,378::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part63.rar - SABnzbd_nzf_oo1oHx added to queue
+2020-07-18 13:33:13,379::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part64.rar - SABnzbd_nzf_FikB32 added to queue
+2020-07-18 13:33:13,380::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part65.rar - SABnzbd_nzf_06oh6K added to queue
+2020-07-18 13:33:13,381::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part66.rar - SABnzbd_nzf_o_e3Kh added to queue
+2020-07-18 13:33:13,383::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part67.rar - SABnzbd_nzf_svTI3l added to queue
+2020-07-18 13:33:13,384::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part68.rar - SABnzbd_nzf_WtqTTy added to queue
+2020-07-18 13:33:13,385::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part69.rar - SABnzbd_nzf_yxjwAD added to queue
+2020-07-18 13:33:13,387::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part70.rar - SABnzbd_nzf_L5Owjv added to queue
+2020-07-18 13:33:13,388::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part71.rar - SABnzbd_nzf_ErNt3j added to queue
+2020-07-18 13:33:13,390::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part72.rar - SABnzbd_nzf_x5VRrR added to queue
+2020-07-18 13:33:13,391::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part73.rar - SABnzbd_nzf_4zbYye added to queue
+2020-07-18 13:33:13,392::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part74.rar - SABnzbd_nzf_zkwFf2 added to queue
+2020-07-18 13:33:13,393::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.sfv - SABnzbd_nzf_OkV6m2 added to queue
+2020-07-18 13:33:13,394::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol000+01.par2 - SABnzbd_nzf_RDn4AJ added to queue
+2020-07-18 13:33:13,394::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol001+02.par2 - SABnzbd_nzf_j12SdF added to queue
+2020-07-18 13:33:13,395::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol003+04.par2 - SABnzbd_nzf_PO8mCZ added to queue
+2020-07-18 13:33:13,397::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol007+08.par2 - SABnzbd_nzf_yAGIPw added to queue
+2020-07-18 13:33:13,398::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol015+16.par2 - SABnzbd_nzf_3Qa0EI added to queue
+2020-07-18 13:33:13,399::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol031+32.par2 - SABnzbd_nzf_wtAvWW added to queue
+2020-07-18 13:33:13,401::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol063+64.par2 - SABnzbd_nzf__vu7TZ added to queue
+2020-07-18 13:33:13,402::INFO::[nzbstuff:530] File tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol127+27.par2 - SABnzbd_nzf_5QNnyF added to queue
+2020-07-18 13:33:13,403::INFO::[__init__:624] Backing up /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/__ADMIN__/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated.nzb.gz
+2020-07-18 13:33:13,411::INFO::[nzbqueue:260] Saving queue
+2020-07-18 13:33:14,420::INFO::[downloader:490] 1@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,660::INFO::[happyeyeballs:138] Quickest IP address for news.eweka.nl (port 563, ssl 1, preferipv6 True) is 81.171.92.205
+2020-07-18 13:33:14,663::INFO::[downloader:490] 16@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,665::INFO::[downloader:490] 19@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,667::INFO::[downloader:490] 20@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,669::INFO::[downloader:490] 15@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,671::INFO::[downloader:490] 2@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,673::INFO::[downloader:490] 14@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,674::INFO::[downloader:490] 9@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,675::INFO::[downloader:490] 3@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,676::INFO::[downloader:490] 8@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,677::INFO::[downloader:490] 18@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,678::INFO::[downloader:490] 12@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,678::INFO::[downloader:490] 4@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,679::INFO::[downloader:490] 7@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,680::INFO::[downloader:490] 13@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,681::INFO::[downloader:490] 5@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,682::INFO::[downloader:490] 10@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,683::INFO::[downloader:490] 6@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,684::INFO::[downloader:490] 11@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,685::INFO::[downloader:490] 17@news.eweka.nl: Initiating connection
+2020-07-18 13:33:14,750::INFO::[newswrapper:121] 1@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,751::INFO::[newswrapper:121] 19@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,754::INFO::[newswrapper:121] 20@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,755::INFO::[newswrapper:121] 16@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,759::INFO::[newswrapper:121] 15@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,760::INFO::[newswrapper:121] 9@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,761::INFO::[newswrapper:121] 14@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,763::INFO::[newswrapper:121] 2@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,765::INFO::[newswrapper:121] 13@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,765::INFO::[newswrapper:121] 8@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,766::INFO::[newswrapper:121] 7@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,767::INFO::[newswrapper:121] 18@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,767::INFO::[newswrapper:121] 3@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,768::INFO::[newswrapper:121] 5@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,769::INFO::[newswrapper:121] 10@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,770::INFO::[newswrapper:121] 4@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,771::INFO::[newswrapper:121] 6@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,774::INFO::[newswrapper:121] 17@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,775::INFO::[newswrapper:121] 11@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:14,789::INFO::[newswrapper:121] 12@news.eweka.nl: Connected using TLSv1.2 (AES128-SHA)
+2020-07-18 13:33:15,761::INFO::[downloader:704] Connecting 13@news.eweka.nl finished
+2020-07-18 13:33:15,762::INFO::[downloader:704] Connecting 5@news.eweka.nl finished
+2020-07-18 13:33:15,763::INFO::[downloader:704] Connecting 10@news.eweka.nl finished
+2020-07-18 13:33:15,763::INFO::[downloader:704] Connecting 6@news.eweka.nl finished
+2020-07-18 13:33:15,764::INFO::[downloader:704] Connecting 11@news.eweka.nl finished
+2020-07-18 13:33:15,764::INFO::[downloader:704] Connecting 17@news.eweka.nl finished
+2020-07-18 13:33:15,765::INFO::[downloader:704] Connecting 16@news.eweka.nl finished
+2020-07-18 13:33:15,765::INFO::[downloader:704] Connecting 1@news.eweka.nl finished
+2020-07-18 13:33:15,766::INFO::[downloader:704] Connecting 19@news.eweka.nl finished
+2020-07-18 13:33:15,766::INFO::[downloader:704] Connecting 20@news.eweka.nl finished
+2020-07-18 13:33:15,767::INFO::[downloader:704] Connecting 15@news.eweka.nl finished
+2020-07-18 13:33:15,767::INFO::[downloader:704] Connecting 2@news.eweka.nl finished
+2020-07-18 13:33:15,768::INFO::[downloader:704] Connecting 14@news.eweka.nl finished
+2020-07-18 13:33:15,768::INFO::[downloader:704] Connecting 9@news.eweka.nl finished
+2020-07-18 13:33:15,769::INFO::[downloader:704] Connecting 3@news.eweka.nl finished
+2020-07-18 13:33:15,769::INFO::[downloader:704] Connecting 8@news.eweka.nl finished
+2020-07-18 13:33:15,770::INFO::[downloader:704] Connecting 18@news.eweka.nl finished
+2020-07-18 13:33:15,770::INFO::[downloader:704] Connecting 12@news.eweka.nl finished
+2020-07-18 13:33:15,771::INFO::[downloader:704] Connecting 4@news.eweka.nl finished
+2020-07-18 13:33:15,771::INFO::[downloader:704] Connecting 7@news.eweka.nl finished
+2020-07-18 13:33:15,940::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.par2 yenc
+2020-07-18 13:33:15,948::INFO::[nzbstuff:1693] Checking all filenames for Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:33:15,948::INFO::[nzbstuff:1696] Re-sorting Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated after getting filename information
+2020-07-18 13:33:23,173::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.sfv yenc
+2020-07-18 13:33:25,041::INFO::[nzbstuff:1693] Checking all filenames for Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:33:25,041::INFO::[nzbstuff:1696] Re-sorting Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated after getting filename information
+2020-07-18 13:33:27,710::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part01.rar yenc
+2020-07-18 13:33:27,861::INFO::[misc:999] Creating directories: /downloads/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:33:27,983::INFO::[directunpacker:383] DirectUnpacked volume 1 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:29,091::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part02.rar yenc
+2020-07-18 13:33:29,350::INFO::[directunpacker:272] DirectUnpacked volume 2 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:31,741::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part03.rar yenc
+2020-07-18 13:33:31,994::INFO::[directunpacker:272] DirectUnpacked volume 3 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:33,448::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part04.rar yenc
+2020-07-18 13:33:33,707::INFO::[directunpacker:272] DirectUnpacked volume 4 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:36,039::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part05.rar yenc
+2020-07-18 13:33:36,290::INFO::[directunpacker:272] DirectUnpacked volume 5 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:38,102::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part06.rar yenc
+2020-07-18 13:33:38,355::INFO::[directunpacker:272] DirectUnpacked volume 6 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:39,301::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part07.rar yenc
+2020-07-18 13:33:39,553::INFO::[directunpacker:272] DirectUnpacked volume 7 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:42,403::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part08.rar yenc
+2020-07-18 13:33:42,650::INFO::[directunpacker:272] DirectUnpacked volume 8 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:43,514::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part09.rar yenc
+2020-07-18 13:33:43,776::INFO::[directunpacker:272] DirectUnpacked volume 9 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:45,416::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part10.rar yenc
+2020-07-18 13:33:45,670::INFO::[directunpacker:272] DirectUnpacked volume 10 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:47,845::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part11.rar yenc
+2020-07-18 13:33:48,110::INFO::[directunpacker:272] DirectUnpacked volume 11 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:50,642::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part12.rar yenc
+2020-07-18 13:33:50,900::INFO::[directunpacker:272] DirectUnpacked volume 12 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:52,375::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part13.rar yenc
+2020-07-18 13:33:52,638::INFO::[directunpacker:272] DirectUnpacked volume 13 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:33:53,721::INFO::[decoder:150] CRC Error in 1463213089.43823.7@reader.usenetbucket.com
+2020-07-18 13:33:53,722::INFO::[nzbstuff:1425] Prospectively added 1 repair blocks to Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:33:54,369::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part14.rar yenc
+2020-07-18 13:33:58,446::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part15.rar yenc
+2020-07-18 13:33:59,848::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part16.rar yenc
+2020-07-18 13:34:01,021::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part17.rar yenc
+2020-07-18 13:34:03,814::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part18.rar yenc
+2020-07-18 13:34:05,580::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part19.rar yenc
+2020-07-18 13:34:07,947::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part20.rar yenc
+2020-07-18 13:34:09,542::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part21.rar yenc
+2020-07-18 13:34:11,687::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part22.rar yenc
+2020-07-18 13:34:14,684::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part23.rar yenc
+2020-07-18 13:34:15,293::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part24.rar yenc
+2020-07-18 13:34:18,092::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part25.rar yenc
+2020-07-18 13:34:19,905::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part26.rar yenc
+2020-07-18 13:34:21,477::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part27.rar yenc
+2020-07-18 13:34:23,886::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part28.rar yenc
+2020-07-18 13:34:26,416::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part29.rar yenc
+2020-07-18 13:34:28,174::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part30.rar yenc
+2020-07-18 13:34:30,192::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part31.rar yenc
+2020-07-18 13:34:32,778::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part32.rar yenc
+2020-07-18 13:34:34,219::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part33.rar yenc
+2020-07-18 13:34:35,231::INFO::[decoder:150] CRC Error in 1463213089.45260.10@reader.usenetbucket.com
+2020-07-18 13:34:35,232::INFO::[nzbstuff:1425] Prospectively added 3 repair blocks to Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:34:36,285::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part34.rar yenc
+2020-07-18 13:34:38,413::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part35.rar yenc
+2020-07-18 13:34:40,787::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part36.rar yenc
+2020-07-18 13:34:42,342::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part37.rar yenc
+2020-07-18 13:34:43,389::INFO::[decoder:150] CRC Error in 1463213089.45573.20@reader.usenetbucket.com
+2020-07-18 13:34:43,390::INFO::[nzbstuff:1425] Prospectively added 3 repair blocks to Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:34:44,236::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part38.rar yenc
+2020-07-18 13:34:47,289::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part39.rar yenc
+2020-07-18 13:34:48,591::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part40.rar yenc
+2020-07-18 13:34:50,764::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part41.rar yenc
+2020-07-18 13:34:52,795::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part42.rar yenc
+2020-07-18 13:34:55,330::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part43.rar yenc
+2020-07-18 13:34:56,134::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part44.rar yenc
+2020-07-18 13:34:58,849::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part45.rar yenc
+2020-07-18 13:35:00,893::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part46.rar yenc
+2020-07-18 13:35:03,238::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part47.rar yenc
+2020-07-18 13:35:05,179::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part48.rar yenc
+2020-07-18 13:35:06,626::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part49.rar yenc
+2020-07-18 13:35:10,206::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part50.rar yenc
+2020-07-18 13:35:11,424::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part51.rar yenc
+2020-07-18 13:35:13,679::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part52.rar yenc
+2020-07-18 13:35:16,167::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part53.rar yenc
+2020-07-18 13:35:17,818::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part54.rar yenc
+2020-07-18 13:35:20,514::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part55.rar yenc
+2020-07-18 13:35:21,684::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part56.rar yenc
+2020-07-18 13:35:24,746::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part57.rar yenc
+2020-07-18 13:35:26,089::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part58.rar yenc
+2020-07-18 13:35:28,262::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part59.rar yenc
+2020-07-18 13:35:32,505::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part60.rar yenc
+2020-07-18 13:35:32,667::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part61.rar yenc
+2020-07-18 13:35:34,825::INFO::[decoder:150] CRC Error in 1463213089.47369.6@reader.usenetbucket.com
+2020-07-18 13:35:34,825::INFO::[nzbstuff:1425] Prospectively added 7 repair blocks to Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:35:35,301::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part62.rar yenc
+2020-07-18 13:35:36,891::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part63.rar yenc
+2020-07-18 13:35:38,872::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part64.rar yenc
+2020-07-18 13:35:41,697::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part65.rar yenc
+2020-07-18 13:35:44,229::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part66.rar yenc
+2020-07-18 13:35:44,691::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part67.rar yenc
+2020-07-18 13:35:47,102::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part68.rar yenc
+2020-07-18 13:35:49,879::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part69.rar yenc
+2020-07-18 13:35:51,900::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part70.rar yenc
+2020-07-18 13:35:54,815::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part71.rar yenc
+2020-07-18 13:35:55,936::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part72.rar yenc
+2020-07-18 13:35:57,835::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol000+01.par2 yenc
+2020-07-18 13:35:57,914::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part74.rar yenc
+2020-07-18 13:35:57,960::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part73.rar yenc
+2020-07-18 13:35:58,122::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol001+02.par2 yenc
+2020-07-18 13:35:58,314::INFO::[nzbqueue:784] [N/A] Ending job Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:35:58,315::INFO::[assembler:91] Decoding /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol003+04.par2 yenc
+2020-07-18 13:35:58,447::INFO::[nzbqueue:418] [N/A] Removed job Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:35:58,447::INFO::[nzbqueue:260] Saving queue
+2020-07-18 13:35:58,448::INFO::[postproc:94] Saving postproc queue
+2020-07-18 13:35:58,482::INFO::[postproc:340] Starting Post-Processing on Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated => Repair:True, Unpack:True, Delete:True, Script:None, Cat:movies
+2020-07-18 13:35:58,482::INFO::[postproc:660] Starting verification and repair of Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:35:58,482::INFO::[__init__:920] [N/A] /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/__ADMIN__/__verified__ missing
+2020-07-18 13:35:58,483::INFO::[postproc:675] Running verification and repair on set tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:35:58,484::INFO::[newsunpack:2175] Quick-check of file tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part38.rar failed!
+2020-07-18 13:35:58,485::INFO::[newsunpack:2175] Quick-check of file tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part34.rar failed!
+2020-07-18 13:35:58,485::INFO::[newsunpack:2175] Quick-check of file tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part15.rar failed!
+2020-07-18 13:35:58,486::INFO::[newsunpack:2175] Quick-check of file tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part63.rar failed!
+2020-07-18 13:35:58,486::INFO::[newsunpack:1128] Scanning "/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.par2"
+2020-07-18 13:35:58,656::INFO::[newsunpack:1248] Starting par2: ['/usr/bin/par2', 'r', '', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.par2', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part09.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part19.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part29.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part39.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part49.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part59.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part69.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.par2', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part01.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part02.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part03.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part04.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part05.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part06.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part07.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part08.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part10.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part11.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part12.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part13.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part14.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part15.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part16.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part17.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part18.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part20.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part21.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part22.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part23.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part24.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part25.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part26.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part27.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part28.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part30.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part31.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part32.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part33.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part34.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part35.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part36.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part37.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part38.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part40.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part41.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part42.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part43.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part44.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part45.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part46.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part47.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part48.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part50.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part51.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part52.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part53.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part54.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part55.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part56.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part57.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part58.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part60.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part61.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part62.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part63.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part64.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part65.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part66.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part67.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part68.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part70.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part71.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part72.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part73.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.part74.rar', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.sfv', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol000+01.par2', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol001+02.par2', u'/downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.vol003+04.par2']
+2020-07-18 13:36:01,718::INFO::[newsunpack:1323] Verified in 3 seconds, repair is required
+2020-07-18 13:36:03,689::INFO::[newsunpack:1389] Repaired in 1 sec
+2020-07-18 13:36:03,690::INFO::[newsunpack:1140] Par verify finished ok on /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.par2!
+2020-07-18 13:36:03,698::INFO::[postproc:716] Verification and repair finished for Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:36:03,705::INFO::[postproc:381] Running unpack_magic on Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:36:03,726::INFO::[newsunpack:256] Unrar starting on /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:36:03,827::INFO::[directunpacker:272] DirectUnpacked volume 14 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:03,972::INFO::[directunpacker:272] DirectUnpacked volume 15 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,121::INFO::[directunpacker:272] DirectUnpacked volume 16 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,267::INFO::[directunpacker:272] DirectUnpacked volume 17 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,374::INFO::[downloader:783] Thread 10@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:04,414::INFO::[directunpacker:272] DirectUnpacked volume 18 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,474::INFO::[downloader:783] Thread 11@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:04,555::INFO::[directunpacker:272] DirectUnpacked volume 19 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,575::INFO::[downloader:783] Thread 13@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:04,676::INFO::[downloader:783] Thread 20@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:04,703::INFO::[directunpacker:272] DirectUnpacked volume 20 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,776::INFO::[downloader:783] Thread 12@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:04,858::INFO::[directunpacker:272] DirectUnpacked volume 21 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:04,877::INFO::[downloader:783] Thread 16@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:04,978::INFO::[downloader:783] Thread 2@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:05,003::INFO::[directunpacker:272] DirectUnpacked volume 22 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:05,078::INFO::[downloader:783] Thread 15@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:05,148::INFO::[directunpacker:272] DirectUnpacked volume 23 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:05,179::INFO::[downloader:783] Thread 18@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:05,280::INFO::[downloader:783] Thread 7@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:05,293::INFO::[directunpacker:272] DirectUnpacked volume 24 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:05,380::INFO::[downloader:783] Thread 19@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:05,442::INFO::[directunpacker:272] DirectUnpacked volume 25 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:05,481::INFO::[downloader:783] Thread 8@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,082::INFO::[downloader:783] Thread 17@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,086::INFO::[directunpacker:272] DirectUnpacked volume 26 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:06,182::INFO::[downloader:783] Thread 5@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,237::INFO::[directunpacker:272] DirectUnpacked volume 27 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:06,283::INFO::[downloader:783] Thread 3@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,381::INFO::[directunpacker:272] DirectUnpacked volume 28 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:06,384::INFO::[downloader:783] Thread 1@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,484::INFO::[downloader:783] Thread 9@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,526::INFO::[directunpacker:272] DirectUnpacked volume 29 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:06,585::INFO::[downloader:783] Thread 6@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,670::INFO::[directunpacker:272] DirectUnpacked volume 30 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:06,685::INFO::[downloader:783] Thread 4@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,786::INFO::[downloader:783] Thread 14@news.eweka.nl: forcing disconnect
+2020-07-18 13:36:06,816::INFO::[directunpacker:272] DirectUnpacked volume 31 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:06,964::INFO::[directunpacker:272] DirectUnpacked volume 32 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:07,112::INFO::[directunpacker:272] DirectUnpacked volume 33 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:07,253::INFO::[directunpacker:272] DirectUnpacked volume 34 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:07,398::INFO::[directunpacker:272] DirectUnpacked volume 35 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:07,547::INFO::[directunpacker:272] DirectUnpacked volume 36 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:07,704::INFO::[directunpacker:272] DirectUnpacked volume 37 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:07,854::INFO::[directunpacker:272] DirectUnpacked volume 38 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,000::INFO::[directunpacker:272] DirectUnpacked volume 39 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,146::INFO::[directunpacker:272] DirectUnpacked volume 40 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,293::INFO::[directunpacker:272] DirectUnpacked volume 41 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,431::INFO::[directunpacker:272] DirectUnpacked volume 42 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,582::INFO::[directunpacker:272] DirectUnpacked volume 43 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,731::INFO::[directunpacker:272] DirectUnpacked volume 44 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:08,879::INFO::[directunpacker:272] DirectUnpacked volume 45 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,032::INFO::[directunpacker:272] DirectUnpacked volume 46 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,184::INFO::[directunpacker:272] DirectUnpacked volume 47 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,327::INFO::[directunpacker:272] DirectUnpacked volume 48 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,481::INFO::[directunpacker:272] DirectUnpacked volume 49 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,630::INFO::[directunpacker:272] DirectUnpacked volume 50 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,775::INFO::[directunpacker:272] DirectUnpacked volume 51 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:09,923::INFO::[directunpacker:272] DirectUnpacked volume 52 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,071::INFO::[directunpacker:272] DirectUnpacked volume 53 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,224::INFO::[directunpacker:272] DirectUnpacked volume 54 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,360::INFO::[directunpacker:272] DirectUnpacked volume 55 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,494::INFO::[directunpacker:272] DirectUnpacked volume 56 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,635::INFO::[directunpacker:272] DirectUnpacked volume 57 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,774::INFO::[directunpacker:272] DirectUnpacked volume 58 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:10,907::INFO::[directunpacker:272] DirectUnpacked volume 59 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,046::INFO::[directunpacker:272] DirectUnpacked volume 60 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,186::INFO::[directunpacker:272] DirectUnpacked volume 61 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,324::INFO::[directunpacker:272] DirectUnpacked volume 62 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,469::INFO::[directunpacker:272] DirectUnpacked volume 63 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,612::INFO::[directunpacker:272] DirectUnpacked volume 64 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,758::INFO::[directunpacker:272] DirectUnpacked volume 65 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:11,900::INFO::[directunpacker:272] DirectUnpacked volume 66 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,036::INFO::[directunpacker:272] DirectUnpacked volume 67 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,169::INFO::[directunpacker:272] DirectUnpacked volume 68 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,316::INFO::[directunpacker:272] DirectUnpacked volume 69 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,449::INFO::[directunpacker:272] DirectUnpacked volume 70 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,591::INFO::[directunpacker:272] DirectUnpacked volume 71 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,729::INFO::[directunpacker:272] DirectUnpacked volume 72 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:12,869::INFO::[directunpacker:272] DirectUnpacked volume 73 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:13,015::INFO::[directunpacker:272] DirectUnpacked volume 74 for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:13,042::INFO::[directunpacker:212] DirectUnpack completed for tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid
+2020-07-18 13:36:14,236::INFO::[newsunpack:510] Set tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid completed by DirectUnpack
+2020-07-18 13:36:14,355::INFO::[newsunpack:260] Unrar finished on /downloads/incomplete/Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:36:14,361::INFO::[postproc:383] Unpacked files [u'/downloads/_UNPACK_Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated/tLaPHDDQTFIqmPTBmn9Sp0QUwSseJdNJjMCQFq3wSagToYds5hWqQid.mp4']
+2020-07-18 13:36:14,362::INFO::[postproc:388] Finished unpack_magic on Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated
+2020-07-18 13:36:14,365::INFO::[postproc:558] Cleaning up Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated (keep_basic=False)
+2020-07-18 13:36:14,365::INFO::[nzbstuff:1759] [N/A] Purging data for job Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated (keep_basic=False, del_files=False)
+2020-07-18 13:36:14,515::INFO::[database:272] Added job Just.Visiting.2001.720p.BluRay.H264.AAC-RARBG-Obfuscated to history
+2020-07-18 13:36:14,515::INFO::[postproc:94] Saving postproc queue
+2020-07-18 13:36:14,516::INFO::[downloader:301] Post-processing finished, resuming download
+2020-07-18 13:36:18,517::INFO::[nzbqueue:260] Saving queue
+2020-07-18 13:36:18,533::INFO::[postproc:94] Saving postproc queue
+2020-07-18 13:37:57,178::INFO::[database:239] [N/A] Removing job SABnzbd_nzo_6LToV4 from history
+2020-07-22 14:46:56,546::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-22 14:46:56,717::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-22 14:46:56,717::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-22 14:46:56,717::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-22 14:46:56,718::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-22 14:46:56,718::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-22 14:46:56,718::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-22 14:46:56,718::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-22 14:46:56,719::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-22 14:46:57,389::INFO::[postproc:100] Loading postproc queue
+2020-07-22 14:46:57,448::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-22 14:46:57,448::INFO::[__init__:349] All processes started
+2020-07-22 14:46:57,448::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-22 14:46:58,036::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-22 14:46:58,073::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-22 14:46:58,627::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-22 14:46:58,627::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-22 14:46:58,627::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-22 14:46:58,628::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-22 14:46:58,628::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-22 14:46:58,628::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-22 14:46:58,628::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-22 14:46:58,628::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-22 14:46:58,628::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-22 14:46:58,629::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-22 14:46:58,630::INFO::[_cplogging:219] [22/Jul/2020:14:46:58] ENGINE Bus STARTING
+2020-07-22 14:46:58,986::INFO::[_cplogging:219] [22/Jul/2020:14:46:58] ENGINE Serving on http://0.0.0.0:8080
+2020-07-22 14:46:58,986::INFO::[_cplogging:219] [22/Jul/2020:14:46:58] ENGINE Bus STARTED
+2020-07-22 14:46:58,987::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-22 14:46:58,990::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-22 14:46:58,991::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-22 14:46:58,991::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-22 14:46:59,055::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-22 14:57:44,051::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2020-07-22 14:57:44,051::INFO::[nzbqueue:260] Saving queue
+2020-07-22 14:57:44,401::INFO::[postproc:94] Saving postproc queue
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-22 14:58:12,489::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-22 14:58:12,490::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-22 14:58:12,491::INFO::[postproc:100] Loading postproc queue
+2020-07-22 14:58:12,495::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-22 14:58:12,496::INFO::[__init__:349] All processes started
+2020-07-22 14:58:12,496::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-22 14:58:12,496::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-22 14:58:12,499::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-22 14:58:12,515::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-22 14:58:12,515::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-22 14:58:12,515::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-22 14:58:12,516::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-22 14:58:12,516::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-22 14:58:12,516::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-22 14:58:12,516::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-22 14:58:12,516::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-22 14:58:12,517::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-22 14:58:12,518::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-22 14:58:12,518::INFO::[_cplogging:219] [22/Jul/2020:14:58:12] ENGINE Bus STARTING
+2020-07-22 14:58:12,627::INFO::[_cplogging:219] [22/Jul/2020:14:58:12] ENGINE Serving on http://0.0.0.0:8080
+2020-07-22 14:58:12,627::INFO::[_cplogging:219] [22/Jul/2020:14:58:12] ENGINE Bus STARTED
+2020-07-22 14:58:12,627::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-22 14:58:12,630::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-22 14:58:12,631::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-22 14:58:12,632::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-22 14:58:12,632::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-23 10:42:03,958::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-23 10:42:04,106::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-23 10:42:04,106::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-23 10:42:04,106::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-23 10:42:04,106::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-23 10:42:04,107::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-23 10:42:04,107::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-23 10:42:04,107::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-23 10:42:04,107::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-23 10:42:04,460::INFO::[postproc:100] Loading postproc queue
+2020-07-23 10:42:04,804::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-23 10:42:04,804::INFO::[__init__:349] All processes started
+2020-07-23 10:42:04,804::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-23 10:42:04,906::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-23 10:42:04,910::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-23 10:42:05,426::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-23 10:42:05,426::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-23 10:42:05,427::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-23 10:42:05,429::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-23 10:42:05,429::INFO::[_cplogging:219] [23/Jul/2020:10:42:05] ENGINE Bus STARTING
+2020-07-23 10:42:06,144::INFO::[_cplogging:219] [23/Jul/2020:10:42:06] ENGINE Serving on http://0.0.0.0:8080
+2020-07-23 10:42:06,144::INFO::[_cplogging:219] [23/Jul/2020:10:42:06] ENGINE Bus STARTED
+2020-07-23 10:42:06,145::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-23 10:42:06,148::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-23 10:42:06,150::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-23 10:42:06,150::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-23 10:42:06,206::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-29 14:05:29,099::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-29 14:05:29,215::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-29 14:05:29,215::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-29 14:05:29,215::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-29 14:05:29,215::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-29 14:05:29,215::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-29 14:05:29,215::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-29 14:05:29,216::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-29 14:05:29,216::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-29 14:05:29,757::INFO::[postproc:100] Loading postproc queue
+2020-07-29 14:05:30,345::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-29 14:05:30,345::INFO::[__init__:349] All processes started
+2020-07-29 14:05:30,345::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-29 14:05:30,447::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-29 14:05:30,627::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-29 14:05:31,499::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-29 14:05:31,500::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-29 14:05:31,500::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-29 14:05:31,500::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-29 14:05:31,501::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-29 14:05:31,501::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-29 14:05:31,501::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-29 14:05:31,501::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-29 14:05:31,501::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-29 14:05:31,503::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-29 14:05:31,503::INFO::[_cplogging:219] [29/Jul/2020:14:05:31] ENGINE Bus STARTING
+2020-07-29 14:05:31,910::INFO::[_cplogging:219] [29/Jul/2020:14:05:31] ENGINE Serving on http://0.0.0.0:8080
+2020-07-29 14:05:31,911::INFO::[_cplogging:219] [29/Jul/2020:14:05:31] ENGINE Bus STARTED
+2020-07-29 14:05:31,911::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-29 14:05:31,921::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-29 14:05:31,923::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-29 14:05:31,923::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-29 14:05:31,997::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-29 14:36:15,461::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2020-07-29 14:36:15,462::INFO::[nzbqueue:260] Saving queue
+2020-07-29 14:36:16,007::INFO::[postproc:94] Saving postproc queue
+2020-07-29 14:38:43,607::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-29 14:38:43,712::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-29 14:38:43,712::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-29 14:38:43,712::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-29 14:38:43,712::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-29 14:38:43,712::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-29 14:38:43,713::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-29 14:38:43,713::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-29 14:38:43,713::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-29 14:38:44,115::INFO::[postproc:100] Loading postproc queue
+2020-07-29 14:38:44,413::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-29 14:38:44,414::INFO::[__init__:349] All processes started
+2020-07-29 14:38:44,414::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-29 14:38:44,689::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-29 14:38:44,714::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-29 14:38:45,587::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-29 14:38:45,587::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-29 14:38:45,588::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-29 14:38:45,588::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-29 14:38:45,588::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-29 14:38:45,588::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-29 14:38:45,588::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-29 14:38:45,589::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-29 14:38:45,589::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-29 14:38:45,591::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-29 14:38:45,592::INFO::[_cplogging:219] [29/Jul/2020:14:38:45] ENGINE Bus STARTING
+2020-07-29 14:38:45,910::INFO::[_cplogging:219] [29/Jul/2020:14:38:45] ENGINE Serving on http://0.0.0.0:8080
+2020-07-29 14:38:45,911::INFO::[_cplogging:219] [29/Jul/2020:14:38:45] ENGINE Bus STARTED
+2020-07-29 14:38:45,911::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-29 14:38:45,915::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-29 14:38:45,917::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-29 14:38:45,918::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-29 14:38:45,954::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-29 14:50:54,144::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2020-07-29 14:50:54,145::INFO::[nzbqueue:260] Saving queue
+2020-07-29 14:50:54,154::INFO::[postproc:94] Saving postproc queue
+2020-07-29 15:00:46,744::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-29 15:00:46,744::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-29 15:00:46,745::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-29 15:00:46,745::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-29 15:00:46,745::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-29 15:00:46,745::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-29 15:00:46,746::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-29 15:00:46,746::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-29 15:00:46,746::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-29 15:00:46,759::INFO::[postproc:100] Loading postproc queue
+2020-07-29 15:00:46,764::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-29 15:00:46,773::INFO::[__init__:349] All processes started
+2020-07-29 15:00:46,774::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-29 15:00:46,774::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-29 15:00:46,826::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-29 15:00:46,899::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-29 15:00:46,899::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-29 15:00:46,899::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-29 15:00:46,900::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-29 15:00:46,900::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-29 15:00:46,900::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-29 15:00:46,900::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-29 15:00:46,900::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-29 15:00:46,901::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-29 15:00:46,902::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-29 15:00:46,905::INFO::[_cplogging:219] [29/Jul/2020:15:00:46] ENGINE Bus STARTING
+2020-07-29 15:00:47,122::INFO::[_cplogging:219] [29/Jul/2020:15:00:47] ENGINE Serving on http://0.0.0.0:8080
+2020-07-29 15:00:47,122::INFO::[_cplogging:219] [29/Jul/2020:15:00:47] ENGINE Bus STARTED
+2020-07-29 15:00:47,123::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-29 15:00:47,134::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-29 15:00:47,144::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-29 15:00:47,157::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-29 15:00:47,158::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-29 15:14:08,553::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2020-07-29 15:14:08,553::INFO::[nzbqueue:260] Saving queue
+2020-07-29 15:14:08,802::INFO::[postproc:94] Saving postproc queue
+2020-07-29 15:16:37,272::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-29 15:16:37,365::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-29 15:16:37,367::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-29 15:16:37,368::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-29 15:16:37,368::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Apr 15 2020, 17:20:14) 
+[GCC 7.5.0]
+2020-07-29 15:16:37,368::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-29 15:16:37,368::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-29 15:16:37,368::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-29 15:16:37,368::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-29 15:16:38,026::INFO::[postproc:100] Loading postproc queue
+2020-07-29 15:16:38,134::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-29 15:16:38,134::INFO::[__init__:349] All processes started
+2020-07-29 15:16:38,135::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-29 15:16:38,442::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-29 15:16:38,512::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-29 15:16:39,649::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-29 15:16:39,649::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-29 15:16:39,649::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-29 15:16:39,649::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-29 15:16:39,649::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-29 15:16:39,650::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-29 15:16:39,650::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-29 15:16:39,650::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-29 15:16:39,650::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-29 15:16:39,651::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-29 15:16:39,652::INFO::[_cplogging:219] [29/Jul/2020:15:16:39] ENGINE Bus STARTING
+2020-07-29 15:16:40,250::INFO::[_cplogging:219] [29/Jul/2020:15:16:40] ENGINE Serving on http://0.0.0.0:8080
+2020-07-29 15:16:40,250::INFO::[_cplogging:219] [29/Jul/2020:15:16:40] ENGINE Bus STARTED
+2020-07-29 15:16:40,250::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-29 15:16:40,254::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-29 15:16:40,257::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-29 15:16:40,257::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-29 15:16:40,413::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
+2020-07-31 14:54:30,795::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2020-07-31 14:54:30,795::INFO::[nzbqueue:260] Saving queue
+2020-07-31 14:54:30,807::INFO::[postproc:94] Saving postproc queue
+2020-07-31 14:55:02,520::INFO::[sabnzbdplus:1152] --------------------------------
+2020-07-31 14:55:02,520::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2020-07-31 14:55:02,521::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2020-07-31 14:55:02,521::INFO::[sabnzbdplus:1164] Platform = posix
+2020-07-31 14:55:02,521::INFO::[sabnzbdplus:1165] Python-version = 2.7.17 (default, Jul 20 2020, 15:37:01) 
+[GCC 7.5.0]
+2020-07-31 14:55:02,522::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2020-07-31 14:55:02,522::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2020-07-31 14:55:02,522::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.1  11 Sep 2018
+2020-07-31 14:55:02,522::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2020-07-31 14:55:02,524::INFO::[postproc:100] Loading postproc queue
+2020-07-31 14:55:02,528::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2020-07-31 14:55:02,528::INFO::[__init__:349] All processes started
+2020-07-31 14:55:02,528::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2020-07-31 14:55:02,529::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2020-07-31 14:55:02,531::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2020-07-31 14:55:02,546::INFO::[sabnzbdplus:397] SABYenc module (v3.3.6)... found!
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2020-07-31 14:55:02,547::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2020-07-31 14:55:02,549::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2020-07-31 14:55:02,549::INFO::[_cplogging:219] [31/Jul/2020:14:55:02] ENGINE Bus STARTING
+2020-07-31 14:55:02,657::INFO::[_cplogging:219] [31/Jul/2020:14:55:02] ENGINE Serving on http://0.0.0.0:8080
+2020-07-31 14:55:02,658::INFO::[_cplogging:219] [31/Jul/2020:14:55:02] ENGINE Bus STARTED
+2020-07-31 14:55:02,658::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2020-07-31 14:55:02,661::INFO::[dirscanner:330] Dirscanner starting up
+2020-07-31 14:55:02,662::INFO::[urlgrabber:82] URLGrabber starting up
+2020-07-31 14:55:02,662::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2020-07-31 14:55:02,663::INFO::[postproc:187] Completed Download Folder /downloads is not on FAT
